@@ -1,0 +1,562 @@
+[
+  {
+    "id": "independent-0-0000",
+    "path": "independent/independent-0-0000.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.9998353719711304
+  },
+  {
+    "id": "independent-0-0001",
+    "path": "independent/independent-0-0001.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.8459780216217041
+  },
+  {
+    "id": "independent-0-0002",
+    "path": "independent/independent-0-0002.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.9999359846115112
+  },
+  {
+    "id": "independent-0-0003",
+    "path": "independent/independent-0-0003.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.9999263286590576
+  },
+  {
+    "id": "independent-0-0004",
+    "path": "independent/independent-0-0004.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.9980534315109253
+  },
+  {
+    "id": "independent-0-0005",
+    "path": "independent/independent-0-0005.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.9990721940994263
+  },
+  {
+    "id": "independent-0-0006",
+    "path": "independent/independent-0-0006.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.999962329864502
+  },
+  {
+    "id": "independent-0-0007",
+    "path": "independent/independent-0-0007.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.9992940425872803
+  },
+  {
+    "id": "independent-0-0008",
+    "path": "independent/independent-0-0008.png",
+    "truth": 0,
+    "prediction": 4,
+    "confidence": 0.7095598578453064
+  },
+  {
+    "id": "independent-0-0009",
+    "path": "independent/independent-0-0009.png",
+    "truth": 0,
+    "prediction": 0,
+    "confidence": 0.9999761581420898
+  },
+  {
+    "id": "independent-1-0000",
+    "path": "independent/independent-1-0000.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9999979734420776
+  },
+  {
+    "id": "independent-1-0001",
+    "path": "independent/independent-1-0001.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9996206760406494
+  },
+  {
+    "id": "independent-1-0002",
+    "path": "independent/independent-1-0002.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9999748468399048
+  },
+  {
+    "id": "independent-1-0003",
+    "path": "independent/independent-1-0003.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.999941349029541
+  },
+  {
+    "id": "independent-1-0004",
+    "path": "independent/independent-1-0004.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9999921321868896
+  },
+  {
+    "id": "independent-1-0005",
+    "path": "independent/independent-1-0005.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9999786615371704
+  },
+  {
+    "id": "independent-1-0006",
+    "path": "independent/independent-1-0006.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9999899864196777
+  },
+  {
+    "id": "independent-1-0007",
+    "path": "independent/independent-1-0007.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9976634979248047
+  },
+  {
+    "id": "independent-1-0008",
+    "path": "independent/independent-1-0008.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.9993932247161865
+  },
+  {
+    "id": "independent-1-0009",
+    "path": "independent/independent-1-0009.png",
+    "truth": 1,
+    "prediction": 1,
+    "confidence": 0.997999370098114
+  },
+  {
+    "id": "independent-2-0000",
+    "path": "independent/independent-2-0000.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 1.0
+  },
+  {
+    "id": "independent-2-0001",
+    "path": "independent/independent-2-0001.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 0.9999995231628418
+  },
+  {
+    "id": "independent-2-0002",
+    "path": "independent/independent-2-0002.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 0.9999783039093018
+  },
+  {
+    "id": "independent-2-0003",
+    "path": "independent/independent-2-0003.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 0.9590376019477844
+  },
+  {
+    "id": "independent-2-0004",
+    "path": "independent/independent-2-0004.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 0.9999985694885254
+  },
+  {
+    "id": "independent-2-0005",
+    "path": "independent/independent-2-0005.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 1.0
+  },
+  {
+    "id": "independent-2-0006",
+    "path": "independent/independent-2-0006.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 1.0
+  },
+  {
+    "id": "independent-2-0007",
+    "path": "independent/independent-2-0007.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 0.9948078989982605
+  },
+  {
+    "id": "independent-2-0008",
+    "path": "independent/independent-2-0008.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 0.9999784231185913
+  },
+  {
+    "id": "independent-2-0009",
+    "path": "independent/independent-2-0009.png",
+    "truth": 2,
+    "prediction": 2,
+    "confidence": 1.0
+  },
+  {
+    "id": "independent-3-0000",
+    "path": "independent/independent-3-0000.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.999982476234436
+  },
+  {
+    "id": "independent-3-0001",
+    "path": "independent/independent-3-0001.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 1.0
+  },
+  {
+    "id": "independent-3-0002",
+    "path": "independent/independent-3-0002.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.9962819218635559
+  },
+  {
+    "id": "independent-3-0003",
+    "path": "independent/independent-3-0003.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.999984860420227
+  },
+  {
+    "id": "independent-3-0004",
+    "path": "independent/independent-3-0004.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.9997949004173279
+  },
+  {
+    "id": "independent-3-0005",
+    "path": "independent/independent-3-0005.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.9990817308425903
+  },
+  {
+    "id": "independent-3-0006",
+    "path": "independent/independent-3-0006.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.999907374382019
+  },
+  {
+    "id": "independent-3-0007",
+    "path": "independent/independent-3-0007.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.9999935626983643
+  },
+  {
+    "id": "independent-3-0008",
+    "path": "independent/independent-3-0008.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.9999973773956299
+  },
+  {
+    "id": "independent-3-0009",
+    "path": "independent/independent-3-0009.png",
+    "truth": 3,
+    "prediction": 3,
+    "confidence": 0.9999994039535522
+  },
+  {
+    "id": "independent-4-0000",
+    "path": "independent/independent-4-0000.png",
+    "truth": 4,
+    "prediction": 4,
+    "confidence": 0.9993182420730591
+  },
+  {
+    "id": "independent-4-0001",
+    "path": "independent/independent-4-0001.png",
+    "truth": 4,
+    "prediction": 4,
+    "confidence": 0.999995231628418
+  },
+  {
+    "id": "independent-4-0002",
+    "path": "independent/independent-4-0002.png",
+    "truth": 4,
+    "prediction": 7,
+    "confidence": 0.6359327435493469
+  },
+  {
+    "id": "independent-4-0003",
+    "path": "independent/independent-4-0003.png",
+    "truth": 4,
+    "prediction": 4,
+    "confidence": 0.9996366500854492
+  },
+  {
+    "id": "independent-4-0004",
+    "path": "independent/independent-4-0004.png",
+    "truth": 4,
+    "prediction": 4,
+    "confidence": 0.9999661445617676
+  },
+  {
+    "id": "independent-4-0005",
+    "path": "independent/independent-4-0005.png",
+    "truth": 4,
+    "prediction": 4,
+    "confidence": 0.9999892711639404
+  },
+  {
+    "id": "independent-4-0006",
+    "path": "independent/independent-4-0006.png",
+    "truth": 4,
+    "prediction": 4,
+    "confidence": 0.9992250204086304
+  },
+  {
+    "id": "independent-4-0007",
+    "path": "independent/independent-4-0007.png",
+    "truth": 4,
+    "prediction": 7,
+    "confidence": 0.9692577719688416
+  },
+  {
+    "id": "independent-4-0008",
+    "path": "independent/independent-4-0008.png",
+    "truth": 4,
+    "prediction": 4,
+    "confidence": 0.999915361404419
+  },
+  {
+    "id": "independent-4-0009",
+    "path": "independent/independent-4-0009.png",
+    "truth": 4,
+    "prediction": 7,
+    "confidence": 0.9999120235443115
+  },
+  {
+    "id": "independent-5-0000",
+    "path": "independent/independent-5-0000.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.8221609592437744
+  },
+  {
+    "id": "independent-5-0001",
+    "path": "independent/independent-5-0001.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9999926090240479
+  },
+  {
+    "id": "independent-5-0002",
+    "path": "independent/independent-5-0002.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9999996423721313
+  },
+  {
+    "id": "independent-5-0003",
+    "path": "independent/independent-5-0003.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9999984502792358
+  },
+  {
+    "id": "independent-5-0004",
+    "path": "independent/independent-5-0004.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9999963045120239
+  },
+  {
+    "id": "independent-5-0005",
+    "path": "independent/independent-5-0005.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9998873472213745
+  },
+  {
+    "id": "independent-5-0006",
+    "path": "independent/independent-5-0006.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9999598264694214
+  },
+  {
+    "id": "independent-5-0007",
+    "path": "independent/independent-5-0007.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9998179078102112
+  },
+  {
+    "id": "independent-5-0008",
+    "path": "independent/independent-5-0008.png",
+    "truth": 5,
+    "prediction": 5,
+    "confidence": 0.9999994039535522
+  },
+  {
+    "id": "independent-5-0009",
+    "path": "independent/independent-5-0009.png",
+    "truth": 5,
+    "prediction": 7,
+    "confidence": 0.9503944516181946
+  },
+  {
+    "id": "independent-6-0000",
+    "path": "independent/independent-6-0000.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.9472346901893616
+  },
+  {
+    "id": "independent-6-0001",
+    "path": "independent/independent-6-0001.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.999995231628418
+  },
+  {
+    "id": "independent-6-0002",
+    "path": "independent/independent-6-0002.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.9999315738677979
+  },
+  {
+    "id": "independent-6-0003",
+    "path": "independent/independent-6-0003.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.9999983310699463
+  },
+  {
+    "id": "independent-6-0004",
+    "path": "independent/independent-6-0004.png",
+    "truth": 6,
+    "prediction": 7,
+    "confidence": 0.8815498352050781
+  },
+  {
+    "id": "independent-6-0005",
+    "path": "independent/independent-6-0005.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.9999995231628418
+  },
+  {
+    "id": "independent-6-0006",
+    "path": "independent/independent-6-0006.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.997147262096405
+  },
+  {
+    "id": "independent-6-0007",
+    "path": "independent/independent-6-0007.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.9999997615814209
+  },
+  {
+    "id": "independent-6-0008",
+    "path": "independent/independent-6-0008.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.9999969005584717
+  },
+  {
+    "id": "independent-6-0009",
+    "path": "independent/independent-6-0009.png",
+    "truth": 6,
+    "prediction": 6,
+    "confidence": 0.9999998807907104
+  },
+  {
+    "id": "independent-7-0000",
+    "path": "independent/independent-7-0000.png",
+    "truth": 7,
+    "prediction": 7,
+    "confidence": 0.9965947270393372
+  },
+  {
+    "id": "independent-7-0001",
+    "path": "independent/independent-7-0001.png",
+    "truth": 7,
+    "prediction": 7,
+    "confidence": 0.9997624754905701
+  },
+  {
+    "id": "independent-7-0002",
+    "path": "independent/independent-7-0002.png",
+    "truth": 7,
+    "prediction": 4,
+    "confidence": 0.9149447679519653
+  },
+  {
+    "id": "independent-7-0003",
+    "path": "independent/independent-7-0003.png",
+    "truth": 7,
+    "prediction": 4,
+    "confidence": 0.9761332273483276
+  },
+  {
+    "id": "independent-7-0004",
+    "path": "independent/independent-7-0004.png",
+    "truth": 7,
+    "prediction": 7,
+    "confidence": 0.9955560564994812
+  },
+  {
+    "id": "independent-7-0005",
+    "path": "independent/independent-7-0005.png",
+    "truth": 7,
+    "prediction": 7,
+    "confidence": 0.9985014200210571
+  },
+  {
+    "id": "independent-7-0006",
+    "path": "independent/independent-7-0006.png",
+    "truth": 7,
+    "prediction": 7,
+    "confidence": 0.9994034767150879
+  },
+  {
+    "id": "independent-7-0007",
+    "path": "independent/independent-7-0007.png",
+    "truth": 7,
+    "prediction": 4,
+    "confidence": 0.9754878282546997
+  },
+  {
+    "id": "independent-7-0008",
+    "path": "independent/independent-7-0008.png",
+    "truth": 7,
+    "prediction": 7,
+    "confidence": 0.9994367957115173
+  },
+  {
+    "id": "independent-7-0009",
+    "path": "independent/independent-7-0009.png",
+    "truth": 7,
+    "prediction": 7,
+    "confidence": 0.6116834878921509
+  }
+]

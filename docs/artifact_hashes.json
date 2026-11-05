@@ -1,0 +1,13 @@
+{
+  "models/cnn_full_gray.pt": "fe50f6157d6e890aa6bfb87b80aca813be9e0cf8f8529b508492411ccee824dc",
+  "models/cnn_crop_color.pt": "5dbd3ae93620f0087fc60533002d0660bdd94af3daefc08ee7eafc877accbabf",
+  "models/transfer_backbone.pt": "736c3a7f7fda37ecc600e2584e0ca872b9243ce8e70a48e0a62e724dc30f83a6",
+  "models/cnn_dropout.pt": "ee8dc5a019fb26b51d51dd3aec2f06b09641f22c742966fad7d69ff1cec88909",
+  "models/cnn_crop_gray.pt": "5d806970cd9af4148874d403142414e28eb2094a22b3778b930657c824903644",
+  "models/cnn_reference.pt": "6cec8b4cd57dcedba08ea5d610bf1418d3fe14efd72a163aba0336dc2776739d",
+  "models/cnn_augmented.pt": "1f7246e384e35dc6d9e31aee9bfac005b93ce8354e29b280fac0b3f091b3b443",
+  "models/cnn_lr_low.pt": "f0a3bf06f961100a720b4bc9e7fc1e00ec410ab9b92fd2c0fb2168fd44bdd4be",
+  "models/baseline.joblib": "64f8d3220e383d156b4788de8cf15938d54cf7300833635c936bb7c2f0f7cce5",
+  "models/transfer.joblib": "7751d81374af9944afe301e7b2ab84cc1c1d18fa6629e444a1068409ab80a452",
+  "data/generated/manifest.jsonl": "1a0513a1efd1dd5feb93c4cdea4192140e471cc5ce622569f9a2306fe11f3fd7"
+}

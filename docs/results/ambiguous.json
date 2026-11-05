@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ambiguous-0-0000",
+    "path": "ambiguous/ambiguous-0-0000.png",
+    "category": "Long put",
+    "confidence": 0.9980854988098145,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.7545811469856475e-14,
+      "Long put": 0.9980854988098145,
+      "Bull spread": 4.897675919344184e-19,
+      "Bear spread": 0.0018315919442102313,
+      "Long straddle": 6.28225071963584e-09,
+      "Long strangle": 8.288160461233929e-05,
+      "Long butterfly": 4.8754834836017835e-08,
+      "Short straddle": 1.3659728730075482e-12
+    }
+  },
+  {
+    "id": "ambiguous-0-0001",
+    "path": "ambiguous/ambiguous-0-0001.png",
+    "category": "Long strangle",
+    "confidence": 0.7076519131660461,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 2.366075668724932e-10,
+      "Long put": 0.29231202602386475,
+      "Bull spread": 6.005208808522455e-14,
+      "Bear spread": 3.527634180500172e-05,
+      "Long straddle": 7.634899361619318e-07,
+      "Long strangle": 0.7076519131660461,
+      "Long butterfly": 2.009596933305602e-08,
+      "Short straddle": 7.224903342262223e-09
+    }
+  },
+  {
+    "id": "ambiguous-0-0002",
+    "path": "ambiguous/ambiguous-0-0002.png",
+    "category": "Long put",
+    "confidence": 0.9998650550842285,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 9.37350023568063e-23,
+      "Long put": 0.9998650550842285,
+      "Bull spread": 4.99532270720727e-26,
+      "Bear spread": 2.365140062465798e-06,
+      "Long straddle": 1.2845723689606007e-15,
+      "Long strangle": 0.0001325534685747698,
+      "Long butterfly": 6.082983373739345e-14,
+      "Short straddle": 2.1659159315785652e-14
+    }
+  },
+  {
+    "id": "ambiguous-0-0003",
+    "path": "ambiguous/ambiguous-0-0003.png",
+    "category": "Long put",
+    "confidence": 0.9998043179512024,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 2.0855185314874803e-17,
+      "Long put": 0.9998043179512024,
+      "Bull spread": 8.230417812385824e-22,
+      "Bear spread": 9.592812421033159e-05,
+      "Long straddle": 8.18491975584923e-12,
+      "Long strangle": 9.972720727091655e-05,
+      "Long butterfly": 5.100850852812755e-10,
+      "Short straddle": 7.427230082042782e-14
+    }
+  },
+  {
+    "id": "ambiguous-0-0004",
+    "path": "ambiguous/ambiguous-0-0004.png",
+    "category": "Long put",
+    "confidence": 0.9913562536239624,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.0944170916737939e-12,
+      "Long put": 0.9913562536239624,
+      "Bull spread": 2.2112481184760786e-15,
+      "Bear spread": 1.5892390365479514e-05,
+      "Long straddle": 1.767357460380481e-08,
+      "Long strangle": 0.008627750910818577,
+      "Long butterfly": 1.8580589511429935e-08,
+      "Short straddle": 1.2018492867582609e-08
+    }
+  },
+  {
+    "id": "ambiguous-1-0000",
+    "path": "ambiguous/ambiguous-1-0000.png",
+    "category": "Long straddle",
+    "confidence": 0.8108282685279846,
+    "explanation": "A V-shaped profile with its minimum at a common strike.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.006269979290664196,
+      "Long put": 4.2674008682297426e-07,
+      "Bull spread": 1.938256718858611e-05,
+      "Bear spread": 8.457046618559616e-09,
+      "Long straddle": 0.8108282685279846,
+      "Long strangle": 0.018532490357756615,
+      "Long butterfly": 4.275439735579312e-08,
+      "Short straddle": 0.16434946656227112
+    }
+  },
+  {
+    "id": "ambiguous-1-0001",
+    "path": "ambiguous/ambiguous-1-0001.png",
+    "category": "Short straddle",
+    "confidence": 0.9884606599807739,
+    "explanation": "An inverted V with a central maximum and losses toward both ends of the chart.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.00023187468468677253,
+      "Long put": 5.503662805494969e-07,
+      "Bull spread": 1.0420785656606313e-06,
+      "Bear spread": 1.3669285259254593e-08,
+      "Long straddle": 0.008279227651655674,
+      "Long strangle": 0.0030265634413808584,
+      "Long butterfly": 2.407376697988184e-08,
+      "Short straddle": 0.9884606599807739
+    }
+  },
+  {
+    "id": "ambiguous-1-0002",
+    "path": "ambiguous/ambiguous-1-0002.png",
+    "category": "Long strangle",
+    "confidence": 0.7487583160400391,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.0329391285777092,
+      "Long put": 7.342369912066715e-08,
+      "Bull spread": 4.3514842218428385e-06,
+      "Bear spread": 3.9134251395012143e-10,
+      "Long straddle": 0.1644381880760193,
+      "Long strangle": 0.7487583160400391,
+      "Long butterfly": 1.4957948213378813e-09,
+      "Short straddle": 0.053859926760196686
+    }
+  },
+  {
+    "id": "ambiguous-1-0003",
+    "path": "ambiguous/ambiguous-1-0003.png",
+    "category": "Long strangle",
+    "confidence": 0.9877045154571533,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 7.703801202296745e-06,
+      "Long put": 2.895975967476261e-06,
+      "Bull spread": 4.192519664769634e-10,
+      "Bear spread": 1.2598898591065222e-09,
+      "Long straddle": 2.7739912184188142e-05,
+      "Long strangle": 0.9877045154571533,
+      "Long butterfly": 9.168853176699798e-11,
+      "Short straddle": 0.012257097288966179
+    }
+  },
+  {
+    "id": "ambiguous-1-0004",
+    "path": "ambiguous/ambiguous-1-0004.png",
+    "category": "Short straddle",
+    "confidence": 0.9965566396713257,
+    "explanation": "An inverted V with a central maximum and losses toward both ends of the chart.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 5.683056588168256e-05,
+      "Long put": 1.3196349755162373e-06,
+      "Bull spread": 8.106197491031253e-09,
+      "Bear spread": 1.0865367272572257e-08,
+      "Long straddle": 0.0005050054751336575,
+      "Long strangle": 0.002880305051803589,
+      "Long butterfly": 7.2212924528969324e-09,
+      "Short straddle": 0.9965566396713257
+    }
+  },
+  {
+    "id": "ambiguous-2-0000",
+    "path": "ambiguous/ambiguous-2-0000.png",
+    "category": "Long put",
+    "confidence": 0.9998601675033569,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 4.336683951105645e-17,
+      "Long put": 0.9998601675033569,
+      "Bull spread": 6.149428694781133e-20,
+      "Bear spread": 5.791855528514134e-06,
+      "Long straddle": 4.168003832696887e-13,
+      "Long strangle": 0.0001339307491434738,
+      "Long butterfly": 3.6509545386920195e-10,
+      "Short straddle": 1.287591283594125e-10
+    }
+  },
+  {
+    "id": "ambiguous-2-0001",
+    "path": "ambiguous/ambiguous-2-0001.png",
+    "category": "Long put",
+    "confidence": 0.9994396567344666,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 5.439606623751543e-15,
+      "Long put": 0.9994396567344666,
+      "Bull spread": 2.1235173890308188e-17,
+      "Bear spread": 1.2713211617665365e-05,
+      "Long straddle": 1.7585318756729862e-09,
+      "Long strangle": 0.0005475790239870548,
+      "Long butterfly": 3.3143348066033695e-09,
+      "Short straddle": 1.423901552222162e-09
+    }
+  },
+  {
+    "id": "ambiguous-2-0002",
+    "path": "ambiguous/ambiguous-2-0002.png",
+    "category": "Long put",
+    "confidence": 0.9999896287918091,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.6393046598375471e-21,
+      "Long put": 0.9999896287918091,
+      "Bull spread": 5.721464967313701e-24,
+      "Bear spread": 9.222052540280856e-06,
+      "Long straddle": 5.1323935336064497e-14,
+      "Long strangle": 1.2182347290945472e-06,
+      "Long butterfly": 1.2260780064832222e-11,
+      "Short straddle": 1.2295779628843095e-13
+    }
+  },
+  {
+    "id": "ambiguous-2-0003",
+    "path": "ambiguous/ambiguous-2-0003.png",
+    "category": "Long put",
+    "confidence": 0.9999966621398926,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 3.551959190639233e-21,
+      "Long put": 0.9999966621398926,
+      "Bull spread": 5.221606015733575e-24,
+      "Bear spread": 2.8758440748788416e-06,
+      "Long straddle": 4.067788908311684e-15,
+      "Long strangle": 4.997467613065965e-07,
+      "Long butterfly": 2.4702195150494433e-11,
+      "Short straddle": 1.1925429719249203e-13
+    }
+  },
+  {
+    "id": "ambiguous-2-0004",
+    "path": "ambiguous/ambiguous-2-0004.png",
+    "category": "Long put",
+    "confidence": 0.9999855756759644,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 2.387056748488269e-22,
+      "Long put": 0.9999855756759644,
+      "Bull spread": 1.0525625119096495e-24,
+      "Bear spread": 1.4226130588212982e-05,
+      "Long straddle": 4.942066246797945e-14,
+      "Long strangle": 2.7053746975980175e-07,
+      "Long butterfly": 9.6695741691466e-12,
+      "Short straddle": 4.343451461127565e-14
+    }
+  },
+  {
+    "id": "ambiguous-3-0000",
+    "path": "ambiguous/ambiguous-3-0000.png",
+    "category": "Bull spread",
+    "confidence": 0.7693877816200256,
+    "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 4.589146129774235e-08,
+      "Long put": 1.2406792038177628e-08,
+      "Bull spread": 0.7693877816200256,
+      "Bear spread": 6.06618013989646e-05,
+      "Long straddle": 0.21569834649562836,
+      "Long strangle": 0.00016829685773700476,
+      "Long butterfly": 2.4865724412848067e-07,
+      "Short straddle": 0.01468462124466896
+    }
+  },
+  {
+    "id": "ambiguous-3-0001",
+    "path": "ambiguous/ambiguous-3-0001.png",
+    "category": "Bull spread",
+    "confidence": 0.9996209144592285,
+    "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 3.081358954659663e-07,
+      "Long put": 4.1859416865901167e-13,
+      "Bull spread": 0.9996209144592285,
+      "Bear spread": 6.528890761359207e-10,
+      "Long straddle": 3.09061178995762e-05,
+      "Long strangle": 6.932224891897931e-07,
+      "Long butterfly": 1.5739586300966835e-09,
+      "Short straddle": 0.0003471408854238689
+    }
+  },
+  {
+    "id": "ambiguous-3-0002",
+    "path": "ambiguous/ambiguous-3-0002.png",
+    "category": "Bull spread",
+    "confidence": 0.9999291896820068,
+    "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 9.486143426329363e-07,
+      "Long put": 1.153179135874856e-15,
+      "Bull spread": 0.9999291896820068,
+      "Bear spread": 3.9324103869031735e-12,
+      "Long straddle": 5.3984120313543826e-05,
+      "Long strangle": 6.046366820555704e-07,
+      "Long butterfly": 1.9486691774095455e-11,
+      "Short straddle": 1.5279054423444904e-05
+    }
+  },
+  {
+    "id": "ambiguous-3-0003",
+    "path": "ambiguous/ambiguous-3-0003.png",
+    "category": "Bull spread",
+    "confidence": 0.9855157136917114,
+    "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 3.475158791843569e-07,
+      "Long put": 9.952835888782374e-09,
+      "Bull spread": 0.9855157136917114,
+      "Bear spread": 2.6487039122002898e-06,
+      "Long straddle": 0.0015077778371050954,
+      "Long strangle": 0.009749183431267738,
+      "Long butterfly": 6.862291002107668e-08,
+      "Short straddle": 0.0032241796143352985
+    }
+  },
+  {
+    "id": "ambiguous-3-0004",
+    "path": "ambiguous/ambiguous-3-0004.png",
+    "category": "Bull spread",
+    "confidence": 0.9992380142211914,
+    "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.910063787136096e-07,
+      "Long put": 5.270384823008456e-13,
+      "Bull spread": 0.9992380142211914,
+      "Bear spread": 9.103817699696037e-10,
+      "Long straddle": 6.554608717124211e-06,
+      "Long strangle": 1.1177727401445736e-06,
+      "Long butterfly": 1.4121046554294026e-09,
+      "Short straddle": 0.0007540546939708292
+    }
+  },
+  {
+    "id": "ambiguous-4-0000",
+    "path": "ambiguous/ambiguous-4-0000.png",
+    "category": "Long strangle",
+    "confidence": 0.6513160467147827,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.0002422421530354768,
+      "Long put": 2.6013321985374205e-07,
+      "Bull spread": 1.729516796444841e-08,
+      "Bear spread": 1.2800138726731802e-10,
+      "Long straddle": 0.00015471637016162276,
+      "Long strangle": 0.6513160467147827,
+      "Long butterfly": 1.221943102258649e-10,
+      "Short straddle": 0.3482867479324341
+    }
+  },
+  {
+    "id": "ambiguous-4-0001",
+    "path": "ambiguous/ambiguous-4-0001.png",
+    "category": "Long straddle",
+    "confidence": 0.7108112573623657,
+    "explanation": "A V-shaped profile with its minimum at a common strike.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.04669241979718208,
+      "Long put": 2.3051360820147693e-09,
+      "Bull spread": 4.7189070073727635e-07,
+      "Bear spread": 3.5769612966030095e-11,
+      "Long straddle": 0.7108112573623657,
+      "Long strangle": 0.24161359667778015,
+      "Long butterfly": 1.4869139253192998e-10,
+      "Short straddle": 0.0008821297669783235
+    }
+  },
+  {
+    "id": "ambiguous-4-0002",
+    "path": "ambiguous/ambiguous-4-0002.png",
+    "category": "Long straddle",
+    "confidence": 0.9982315897941589,
+    "explanation": "A V-shaped profile with its minimum at a common strike.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 2.3039808283442653e-08,
+      "Long put": 1.0565925911976137e-09,
+      "Bull spread": 1.2850926989216305e-09,
+      "Bear spread": 3.4889706141544297e-12,
+      "Long straddle": 0.9982315897941589,
+      "Long strangle": 0.001768456189893186,
+      "Long butterfly": 6.719787486869633e-14,
+      "Short straddle": 3.85784337808559e-09
+    }
+  },
+  {
+    "id": "ambiguous-4-0003",
+    "path": "ambiguous/ambiguous-4-0003.png",
+    "category": "Long straddle",
+    "confidence": 0.9632030129432678,
+    "explanation": "A V-shaped profile with its minimum at a common strike.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.0002834757906384766,
+      "Long put": 7.197500234701337e-11,
+      "Bull spread": 2.8279937396291643e-06,
+      "Bear spread": 7.146741965585734e-13,
+      "Long straddle": 0.9632030129432678,
+      "Long strangle": 0.03648673743009567,
+      "Long butterfly": 8.475059846621558e-13,
+      "Short straddle": 2.391905763943214e-05
+    }
+  },
+  {
+    "id": "ambiguous-4-0004",
+    "path": "ambiguous/ambiguous-4-0004.png",
+    "category": "Long straddle",
+    "confidence": 0.6679049134254456,
+    "explanation": "A V-shaped profile with its minimum at a common strike.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 7.34233035473153e-05,
+      "Long put": 1.455951192941285e-10,
+      "Bull spread": 8.510564697417067e-08,
+      "Bear spread": 6.036763835126288e-14,
+      "Long straddle": 0.6679049134254456,
+      "Long strangle": 0.3320215344429016,
+      "Long butterfly": 4.488452998488955e-14,
+      "Short straddle": 9.759564711941948e-09
+    }
+  },
+  {
+    "id": "ambiguous-5-0000",
+    "path": "ambiguous/ambiguous-5-0000.png",
+    "category": "Long strangle",
+    "confidence": 0.9880235195159912,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.1879776593559654e-06,
+      "Long put": 6.501992902485654e-05,
+      "Bull spread": 9.119856869688192e-09,
+      "Bear spread": 5.433869176840744e-08,
+      "Long straddle": 0.0009456388652324677,
+      "Long strangle": 0.9880235195159912,
+      "Long butterfly": 5.584474549458207e-10,
+      "Short straddle": 0.010964619927108288
+    }
+  },
+  {
+    "id": "ambiguous-5-0001",
+    "path": "ambiguous/ambiguous-5-0001.png",
+    "category": "Long strangle",
+    "confidence": 0.9704456329345703,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.0021754340268671513,
+      "Long put": 3.781302826411093e-09,
+      "Bull spread": 5.033603883930482e-06,
+      "Bear spread": 5.166961476732457e-12,
+      "Long straddle": 0.027363110333681107,
+      "Long strangle": 0.9704456329345703,
+      "Long butterfly": 1.9369575388061833e-11,
+      "Short straddle": 1.0802478755067568e-05
+    }
+  },
+  {
+    "id": "ambiguous-5-0002",
+    "path": "ambiguous/ambiguous-5-0002.png",
+    "category": "Long strangle",
+    "confidence": 0.8182756304740906,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.10896085947751999,
+      "Long put": 5.399405722528172e-07,
+      "Bull spread": 0.0006901119486428797,
+      "Bear spread": 5.309961914612416e-10,
+      "Long straddle": 0.06704192608594894,
+      "Long strangle": 0.8182756304740906,
+      "Long butterfly": 2.94656548049943e-08,
+      "Short straddle": 0.005030933301895857
+    }
+  },
+  {
+    "id": "ambiguous-5-0003",
+    "path": "ambiguous/ambiguous-5-0003.png",
+    "category": "Long straddle",
+    "confidence": 0.6448094248771667,
+    "explanation": "A V-shaped profile with its minimum at a common strike.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 0.0020559572149068117,
+      "Long put": 2.4636329087890374e-10,
+      "Bull spread": 2.126975999772185e-07,
+      "Bear spread": 6.043919162888878e-13,
+      "Long straddle": 0.6448094248771667,
+      "Long strangle": 0.3531337082386017,
+      "Long butterfly": 1.0152499500815093e-12,
+      "Short straddle": 6.347930820993497e-07
+    }
+  },
+  {
+    "id": "ambiguous-5-0004",
+    "path": "ambiguous/ambiguous-5-0004.png",
+    "category": "Long strangle",
+    "confidence": 0.5096004009246826,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.8138943005396868e-06,
+      "Long put": 2.4496801415807568e-05,
+      "Bull spread": 5.068530484209077e-09,
+      "Bear spread": 1.0129017482540803e-06,
+      "Long straddle": 4.6562188799725845e-05,
+      "Long strangle": 0.5096004009246826,
+      "Long butterfly": 2.2540427302431e-09,
+      "Short straddle": 0.4903256893157959
+    }
+  },
+  {
+    "id": "ambiguous-6-0000",
+    "path": "ambiguous/ambiguous-6-0000.png",
+    "category": "Long put",
+    "confidence": 0.9999876022338867,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.2126185241605572e-23,
+      "Long put": 0.9999876022338867,
+      "Bull spread": 2.1367909236088568e-26,
+      "Bear spread": 1.1625391380221117e-05,
+      "Long straddle": 5.5708276973907584e-15,
+      "Long strangle": 7.023709827080893e-07,
+      "Long butterfly": 1.0673658137894115e-12,
+      "Short straddle": 1.971912182965798e-15
+    }
+  },
+  {
+    "id": "ambiguous-6-0001",
+    "path": "ambiguous/ambiguous-6-0001.png",
+    "category": "Long put",
+    "confidence": 0.9986075758934021,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.339941504106823e-12,
+      "Long put": 0.9986075758934021,
+      "Bull spread": 5.958549829216363e-15,
+      "Bear spread": 2.484076321707107e-05,
+      "Long straddle": 7.933169676732632e-09,
+      "Long strangle": 0.0013674075016751885,
+      "Long butterfly": 8.754800262522622e-08,
+      "Short straddle": 3.1936785660491296e-08
+    }
+  },
+  {
+    "id": "ambiguous-6-0002",
+    "path": "ambiguous/ambiguous-6-0002.png",
+    "category": "Long put",
+    "confidence": 0.9999507665634155,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 7.642107614082182e-21,
+      "Long put": 0.9999507665634155,
+      "Bull spread": 1.2884758621231528e-23,
+      "Bear spread": 3.8547193980775774e-05,
+      "Long straddle": 7.176089149990572e-12,
+      "Long strangle": 1.0750328328867909e-05,
+      "Long butterfly": 5.07442005082126e-12,
+      "Short straddle": 2.2568241492184477e-13
+    }
+  },
+  {
+    "id": "ambiguous-6-0003",
+    "path": "ambiguous/ambiguous-6-0003.png",
+    "category": "Long put",
+    "confidence": 0.9999806880950928,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 8.375881473213816e-19,
+      "Long put": 0.9999806880950928,
+      "Bull spread": 5.098798674363665e-23,
+      "Bear spread": 1.7334881704300642e-05,
+      "Long straddle": 7.49986264905007e-15,
+      "Long strangle": 2.064457476080861e-06,
+      "Long butterfly": 5.610513165166253e-10,
+      "Short straddle": 1.2856782424710417e-13
+    }
+  },
+  {
+    "id": "ambiguous-6-0004",
+    "path": "ambiguous/ambiguous-6-0004.png",
+    "category": "Long put",
+    "confidence": 0.9999963045120239,
+    "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.0574606597106935e-22,
+      "Long put": 0.9999963045120239,
+      "Bull spread": 2.3410857143152817e-26,
+      "Bear spread": 2.454437662890996e-06,
+      "Long straddle": 3.752612183803095e-16,
+      "Long strangle": 1.204968953061325e-06,
+      "Long butterfly": 1.5441605242735856e-12,
+      "Short straddle": 2.092480123227396e-15
+    }
+  },
+  {
+    "id": "ambiguous-7-0000",
+    "path": "ambiguous/ambiguous-7-0000.png",
+    "category": "Long strangle",
+    "confidence": 0.9999985694885254,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.0338874290027888e-07,
+      "Long put": 7.060948641101142e-14,
+      "Bull spread": 9.091282587858629e-11,
+      "Bear spread": 5.738973920014078e-19,
+      "Long straddle": 1.304532361245947e-06,
+      "Long strangle": 0.9999985694885254,
+      "Long butterfly": 6.148781942939693e-19,
+      "Short straddle": 1.0857042348488832e-10
+    }
+  },
+  {
+    "id": "ambiguous-7-0001",
+    "path": "ambiguous/ambiguous-7-0001.png",
+    "category": "Long strangle",
+    "confidence": 0.999881386756897,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 3.7910696846665815e-05,
+      "Long put": 8.052625338999912e-15,
+      "Bull spread": 3.751757571279768e-09,
+      "Bear spread": 1.5346929089527808e-20,
+      "Long straddle": 8.072149648796767e-05,
+      "Long strangle": 0.999881386756897,
+      "Long butterfly": 3.1680258522568943e-18,
+      "Short straddle": 4.399069650218301e-12
+    }
+  },
+  {
+    "id": "ambiguous-7-0002",
+    "path": "ambiguous/ambiguous-7-0002.png",
+    "category": "Long strangle",
+    "confidence": 0.9732879400253296,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 2.056699486274738e-05,
+      "Long put": 1.1068355121324203e-07,
+      "Bull spread": 5.8397489510753076e-08,
+      "Bear spread": 3.9651060212975153e-11,
+      "Long straddle": 0.026685897260904312,
+      "Long strangle": 0.9732879400253296,
+      "Long butterfly": 9.343734119759972e-12,
+      "Short straddle": 5.395983407652238e-06
+    }
+  },
+  {
+    "id": "ambiguous-7-0003",
+    "path": "ambiguous/ambiguous-7-0003.png",
+    "category": "Long strangle",
+    "confidence": 0.9999372959136963,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 2.7666658297675895e-08,
+      "Long put": 4.31619462393229e-11,
+      "Bull spread": 3.245852545075145e-11,
+      "Bear spread": 3.4226692927436994e-16,
+      "Long straddle": 6.272795872064307e-05,
+      "Long strangle": 0.9999372959136963,
+      "Long butterfly": 4.736502361927641e-17,
+      "Short straddle": 1.0729430677258733e-09
+    }
+  },
+  {
+    "id": "ambiguous-7-0004",
+    "path": "ambiguous/ambiguous-7-0004.png",
+    "category": "Long strangle",
+    "confidence": 0.9998952150344849,
+    "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+    "model": "cnn_lr_low",
+    "probabilities": {
+      "Long call": 1.4330425074149389e-05,
+      "Long put": 5.597252804474817e-13,
+      "Bull spread": 1.0119582949386086e-10,
+      "Bear spread": 2.278517387343149e-18,
+      "Long straddle": 9.048319043358788e-05,
+      "Long strangle": 0.9998952150344849,
+      "Long butterfly": 4.37709040053988e-17,
+      "Short straddle": 7.606110186131332e-11
+    }
+  }
+]

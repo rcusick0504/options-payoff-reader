@@ -1,0 +1,61 @@
+{
+  "name": "cnn_lr_low",
+  "config": {
+    "name": "cnn_lr_low",
+    "lr": 0.001,
+    "dropout": 0.2,
+    "crop": false,
+    "gray": false,
+    "augmentation": false
+  },
+  "val_accuracy": 1.0,
+  "rule": "Highest validation accuracy at validation-loss-selected checkpoint; smallest file size breaks ties.",
+  "candidates": [
+    {
+      "name": "baseline",
+      "val_accuracy": 1.0,
+      "model_bytes": 36960852
+    },
+    {
+      "name": "cnn_reference",
+      "val_accuracy": 1.0,
+      "model_bytes": 163621
+    },
+    {
+      "name": "cnn_lr_low",
+      "val_accuracy": 1.0,
+      "model_bytes": 163573
+    },
+    {
+      "name": "cnn_dropout",
+      "val_accuracy": 1.0,
+      "model_bytes": 163589
+    },
+    {
+      "name": "cnn_augmented",
+      "val_accuracy": 1.0,
+      "model_bytes": 163621
+    },
+    {
+      "name": "cnn_full_gray",
+      "val_accuracy": 1.0,
+      "model_bytes": 163621
+    },
+    {
+      "name": "cnn_crop_color",
+      "val_accuracy": 1.0,
+      "model_bytes": 163637
+    },
+    {
+      "name": "cnn_crop_gray",
+      "val_accuracy": 1.0,
+      "model_bytes": 163621
+    },
+    {
+      "name": "transfer",
+      "val_accuracy": 1.0,
+      "model_bytes": 3858994
+    }
+  ],
+  "test_used": false
+}

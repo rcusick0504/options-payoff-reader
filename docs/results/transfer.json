@@ -1,0 +1,14 @@
+{
+  "config": {
+    "name": "transfer",
+    "size": 96,
+    "crop": false,
+    "gray": false,
+    "C": 1.0,
+    "weights": "MobileNet_V3_Small_Weights.IMAGENET1K_V1"
+  },
+  "val_accuracy": 1.0,
+  "seconds": 104.08219170800294,
+  "model_bytes": 3858994,
+  "device": "cpu"
+}

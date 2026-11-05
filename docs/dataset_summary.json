@@ -1,0 +1,9 @@
+{
+  "train": 12000,
+  "val": 1600,
+  "test": 1600,
+  "ood": 800,
+  "independent": 80,
+  "ambiguous": 40,
+  "manifest_sha256": "1a0513a1efd1dd5feb93c4cdea4192140e471cc5ce622569f9a2306fe11f3fd7"
+}

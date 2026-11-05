@@ -1,0 +1,4223 @@
+{
+  "baseline": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 2.2204460492503136e-16,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.545,
+      "macro_f1": 0.6076858907714662,
+      "balanced_accuracy": 0.5449999999999999,
+      "log_loss": 15.900301243757353,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 0.48,
+          "f1-score": 0.6486486486486487,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 0.53,
+          "f1-score": 0.6928104575163399,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 0.51,
+          "f1-score": 0.6754966887417219,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 0.42,
+          "f1-score": 0.5915492957746479,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.9787234042553191,
+          "recall": 0.46,
+          "f1-score": 0.6258503401360545,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.8983050847457628,
+          "recall": 0.53,
+          "f1-score": 0.6666666666666666,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.2188183807439825,
+          "recall": 1.0,
+          "f1-score": 0.3590664272890485,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 0.43,
+          "f1-score": 0.6013986013986014,
+          "support": 100.0
+        },
+        "accuracy": 0.545,
+        "macro avg": {
+          "precision": 0.886980858718133,
+          "recall": 0.5449999999999999,
+          "f1-score": 0.6076858907714662,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.886980858718133,
+          "recall": 0.545,
+          "f1-score": 0.6076858907714662,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          52,
+          0
+        ],
+        [
+          0,
+          53,
+          0,
+          0,
+          0,
+          2,
+          45,
+          0
+        ],
+        [
+          0,
+          0,
+          51,
+          0,
+          0,
+          0,
+          49,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          42,
+          0,
+          0,
+          58,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          46,
+          4,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          53,
+          46,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          100,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          57,
+          43
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 2.2204460492503136e-16,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 3.8149165047798306,
+      "p95_ms": 4.767972399713471,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 36960852
+    }
+  },
+  "cnn_reference": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.00011152947990922257,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.40125,
+      "macro_f1": 0.4317286019146309,
+      "balanced_accuracy": 0.40125,
+      "log_loss": 7.129942417144775,
+      "per_class": {
+        "Long call": {
+          "precision": 0.22560975609756098,
+          "recall": 0.37,
+          "f1-score": 0.2803030303030303,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 0.5930232558139535,
+          "recall": 0.51,
+          "f1-score": 0.5483870967741935,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1-score": 0.5714285714285714,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 0.39,
+          "f1-score": 0.5611510791366906,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.3493150684931507,
+          "recall": 0.51,
+          "f1-score": 0.4146341463414634,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.1566265060240964,
+          "recall": 0.26,
+          "f1-score": 0.19548872180451127,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.8043478260869565,
+          "recall": 0.37,
+          "f1-score": 0.5068493150684932,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.35398230088495575,
+          "recall": 0.4,
+          "f1-score": 0.3755868544600939,
+          "support": 100.0
+        },
+        "accuracy": 0.40125,
+        "macro avg": {
+          "precision": 0.5603630891750843,
+          "recall": 0.40125,
+          "f1-score": 0.4317286019146309,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.5603630891750843,
+          "recall": 0.40125,
+          "f1-score": 0.4317286019146309,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          37,
+          20,
+          0,
+          0,
+          19,
+          4,
+          0,
+          20
+        ],
+        [
+          33,
+          51,
+          0,
+          0,
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          12,
+          40,
+          0,
+          21,
+          16,
+          0,
+          7
+        ],
+        [
+          45,
+          3,
+          0,
+          39,
+          0,
+          10,
+          0,
+          3
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          51,
+          13,
+          3,
+          1
+        ],
+        [
+          10,
+          0,
+          0,
+          0,
+          29,
+          26,
+          6,
+          29
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          7,
+          43,
+          37,
+          13
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          3,
+          54,
+          0,
+          40
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.9125,
+      "macro_f1": 0.9153874269005848,
+      "balanced_accuracy": 0.9125000000000001,
+      "log_loss": 0.3415871262550354,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.6428571428571429,
+          "recall": 0.9,
+          "f1-score": 0.75,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 0.7777777777777778,
+          "recall": 0.7,
+          "f1-score": 0.7368421052631579,
+          "support": 10.0
+        },
+        "accuracy": 0.9125,
+        "macro avg": {
+          "precision": 0.9275793650793651,
+          "recall": 0.9125000000000001,
+          "f1-score": 0.9153874269005848,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.9275793650793652,
+          "recall": 0.9125,
+          "f1-score": 0.9153874269005847,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 0.3116250009043142,
+      "p95_ms": 0.3265145467594266,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 163621
+    }
+  },
+  "cnn_lr_low": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.0003427724586799741,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.39875,
+      "macro_f1": 0.4238574339942873,
+      "balanced_accuracy": 0.39875000000000005,
+      "log_loss": 5.718267917633057,
+      "per_class": {
+        "Long call": {
+          "precision": 0.17682926829268292,
+          "recall": 0.29,
+          "f1-score": 0.2196969696969697,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 0.45544554455445546,
+          "recall": 0.46,
+          "f1-score": 0.4577114427860697,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 0.8214285714285714,
+          "recall": 0.46,
+          "f1-score": 0.5897435897435898,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 0.35,
+          "f1-score": 0.5185185185185185,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.29069767441860467,
+          "recall": 0.5,
+          "f1-score": 0.36764705882352944,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.22962962962962963,
+          "recall": 0.31,
+          "f1-score": 0.26382978723404255,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.6610169491525424,
+          "recall": 0.39,
+          "f1-score": 0.49056603773584906,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.5512820512820513,
+          "recall": 0.43,
+          "f1-score": 0.48314606741573035,
+          "support": 100.0
+        },
+        "accuracy": 0.39875,
+        "macro avg": {
+          "precision": 0.5232912110948172,
+          "recall": 0.39875000000000005,
+          "f1-score": 0.4238574339942873,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.5232912110948171,
+          "recall": 0.39875,
+          "f1-score": 0.4238574339942874,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          29,
+          32,
+          0,
+          0,
+          20,
+          14,
+          0,
+          5
+        ],
+        [
+          25,
+          46,
+          0,
+          0,
+          26,
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          19,
+          46,
+          0,
+          15,
+          15,
+          0,
+          4
+        ],
+        [
+          39,
+          4,
+          0,
+          35,
+          19,
+          3,
+          0,
+          0
+        ],
+        [
+          25,
+          0,
+          0,
+          0,
+          50,
+          20,
+          2,
+          3
+        ],
+        [
+          13,
+          0,
+          0,
+          0,
+          25,
+          31,
+          18,
+          13
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          16,
+          35,
+          39,
+          10
+        ],
+        [
+          32,
+          0,
+          10,
+          0,
+          1,
+          14,
+          0,
+          43
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.8875,
+      "macro_f1": 0.8931419457735247,
+      "balanced_accuracy": 0.8875,
+      "log_loss": 0.41480493545532227,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.6363636363636364,
+          "recall": 0.7,
+          "f1-score": 0.6666666666666666,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 0.5833333333333334,
+          "recall": 0.7,
+          "f1-score": 0.6363636363636364,
+          "support": 10.0
+        },
+        "accuracy": 0.8875,
+        "macro avg": {
+          "precision": 0.9024621212121212,
+          "recall": 0.8875,
+          "f1-score": 0.8931419457735247,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.9024621212121211,
+          "recall": 0.8875,
+          "f1-score": 0.8931419457735247,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          9,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          7
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 0.30920852441340685,
+      "p95_ms": 0.32737093861214817,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 163573
+    }
+  },
+  "cnn_dropout": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.00019971825531683862,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.40625,
+      "macro_f1": 0.43897865294828453,
+      "balanced_accuracy": 0.40625,
+      "log_loss": 7.308977127075195,
+      "per_class": {
+        "Long call": {
+          "precision": 0.4461538461538462,
+          "recall": 0.29,
+          "f1-score": 0.3515151515151515,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 0.5625,
+          "recall": 0.54,
+          "f1-score": 0.5510204081632653,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 0.38,
+          "f1-score": 0.5507246376811594,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 0.9767441860465116,
+          "recall": 0.42,
+          "f1-score": 0.5874125874125874,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.2755102040816326,
+          "recall": 0.54,
+          "f1-score": 0.36486486486486486,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.136986301369863,
+          "recall": 0.3,
+          "f1-score": 0.18808777429467086,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.74,
+          "recall": 0.37,
+          "f1-score": 0.49333333333333335,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.44086021505376344,
+          "recall": 0.41,
+          "f1-score": 0.42487046632124353,
+          "support": 100.0
+        },
+        "accuracy": 0.40625,
+        "macro avg": {
+          "precision": 0.5723443440882021,
+          "recall": 0.40625,
+          "f1-score": 0.43897865294828453,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.5723443440882021,
+          "recall": 0.40625,
+          "f1-score": 0.4389786529482845,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          29,
+          30,
+          0,
+          0,
+          20,
+          7,
+          0,
+          14
+        ],
+        [
+          20,
+          54,
+          0,
+          0,
+          25,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          10,
+          38,
+          1,
+          10,
+          27,
+          0,
+          13
+        ],
+        [
+          12,
+          0,
+          0,
+          42,
+          19,
+          27,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          54,
+          44,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          40,
+          30,
+          13,
+          15
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          26,
+          27,
+          37,
+          10
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          2,
+          56,
+          0,
+          41
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.9,
+      "macro_f1": 0.9029605263157894,
+      "balanced_accuracy": 0.8999999999999999,
+      "log_loss": 0.39116019010543823,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.6428571428571429,
+          "recall": 0.9,
+          "f1-score": 0.75,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6,
+          "f1-score": 0.631578947368421,
+          "support": 10.0
+        },
+        "accuracy": 0.9,
+        "macro avg": {
+          "precision": 0.9136904761904762,
+          "recall": 0.8999999999999999,
+          "f1-score": 0.9029605263157894,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.9136904761904763,
+          "recall": 0.9,
+          "f1-score": 0.9029605263157894,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 0.31014549313113093,
+      "p95_ms": 0.3253562535974197,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 163589
+    }
+  },
+  "cnn_augmented": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.00022813263058196753,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.41625,
+      "macro_f1": 0.4308924398703802,
+      "balanced_accuracy": 0.41625,
+      "log_loss": 7.0296502113342285,
+      "per_class": {
+        "Long call": {
+          "precision": 0.41414141414141414,
+          "recall": 0.41,
+          "f1-score": 0.4120603015075377,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 0.5967741935483871,
+          "recall": 0.37,
+          "f1-score": 0.4567901234567901,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 0.52,
+          "f1-score": 0.6842105263157895,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 0.3963963963963964,
+          "recall": 0.44,
+          "f1-score": 0.41706161137440756,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.2608695652173913,
+          "recall": 0.54,
+          "f1-score": 0.3517915309446254,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.2682926829268293,
+          "recall": 0.22,
+          "f1-score": 0.24175824175824176,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.7017543859649122,
+          "recall": 0.4,
+          "f1-score": 0.5095541401273885,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.33076923076923076,
+          "recall": 0.43,
+          "f1-score": 0.3739130434782609,
+          "support": 100.0
+        },
+        "accuracy": 0.41625,
+        "macro avg": {
+          "precision": 0.4961247336205702,
+          "recall": 0.41625,
+          "f1-score": 0.4308924398703802,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.4961247336205702,
+          "recall": 0.41625,
+          "f1-score": 0.4308924398703802,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          41,
+          2,
+          0,
+          37,
+          14,
+          0,
+          0,
+          6
+        ],
+        [
+          8,
+          37,
+          0,
+          16,
+          37,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          23,
+          52,
+          14,
+          9,
+          0,
+          0,
+          2
+        ],
+        [
+          44,
+          0,
+          0,
+          44,
+          11,
+          0,
+          0,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          54,
+          5,
+          13,
+          24
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          32,
+          22,
+          4,
+          42
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          48,
+          2,
+          40,
+          10
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          2,
+          53,
+          0,
+          43
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.95,
+      "macro_f1": 0.9497161464266728,
+      "balanced_accuracy": 0.95,
+      "log_loss": 0.12618711590766907,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1-score": 0.9,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "accuracy": 0.95,
+        "macro avg": {
+          "precision": 0.9553030303030303,
+          "recall": 0.95,
+          "f1-score": 0.9497161464266728,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.9553030303030304,
+          "recall": 0.95,
+          "f1-score": 0.9497161464266728,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          8,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 0.31202149693854153,
+      "p95_ms": 0.33377469662809744,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 163621
+    }
+  },
+  "cnn_full_gray": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 5.1326584070920944e-05,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.36875,
+      "macro_f1": 0.3890336956061781,
+      "balanced_accuracy": 0.36875,
+      "log_loss": 6.640862941741943,
+      "per_class": {
+        "Long call": {
+          "precision": 0.2830188679245283,
+          "recall": 0.3,
+          "f1-score": 0.2912621359223301,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 0.41346153846153844,
+          "recall": 0.43,
+          "f1-score": 0.4215686274509804,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 0.7727272727272727,
+          "recall": 0.34,
+          "f1-score": 0.4722222222222222,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 0.28,
+          "f1-score": 0.4375,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.30120481927710846,
+          "recall": 0.5,
+          "f1-score": 0.37593984962406013,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.16129032258064516,
+          "recall": 0.35,
+          "f1-score": 0.22082018927444794,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.532258064516129,
+          "recall": 0.33,
+          "f1-score": 0.4074074074074074,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.5753424657534246,
+          "recall": 0.42,
+          "f1-score": 0.48554913294797686,
+          "support": 100.0
+        },
+        "accuracy": 0.36875,
+        "macro avg": {
+          "precision": 0.5049129189050809,
+          "recall": 0.36875,
+          "f1-score": 0.3890336956061781,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.5049129189050808,
+          "recall": 0.36875,
+          "f1-score": 0.3890336956061782,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          30,
+          37,
+          0,
+          0,
+          20,
+          13,
+          0,
+          0
+        ],
+        [
+          38,
+          43,
+          0,
+          0,
+          17,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          21,
+          34,
+          0,
+          11,
+          18,
+          0,
+          13
+        ],
+        [
+          20,
+          3,
+          0,
+          28,
+          16,
+          33,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          50,
+          47,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          33,
+          35,
+          23,
+          9
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          14,
+          44,
+          33,
+          9
+        ],
+        [
+          13,
+          0,
+          10,
+          0,
+          5,
+          25,
+          5,
+          42
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.8375,
+      "macro_f1": 0.838237653032945,
+      "balanced_accuracy": 0.8375,
+      "log_loss": 1.0437597036361694,
+      "per_class": {
+        "Long call": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 0.7,
+          "f1-score": 0.8235294117647058,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.5263157894736842,
+          "recall": 1.0,
+          "f1-score": 0.6896551724137931,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 0.6666666666666666,
+          "recall": 0.4,
+          "f1-score": 0.5,
+          "support": 10.0
+        },
+        "accuracy": 0.8375,
+        "macro avg": {
+          "precision": 0.8782894736842105,
+          "recall": 0.8375,
+          "f1-score": 0.838237653032945,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.8782894736842106,
+          "recall": 0.8375,
+          "f1-score": 0.8382376530329451,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          9,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          8,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 0.3247705026296899,
+      "p95_ms": 0.3494793418212793,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 163621
+    }
+  },
+  "cnn_crop_color": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 5.089640762889758e-05,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.44125,
+      "macro_f1": 0.4504490843752428,
+      "balanced_accuracy": 0.44125,
+      "log_loss": 5.308880805969238,
+      "per_class": {
+        "Long call": {
+          "precision": 0.1941747572815534,
+          "recall": 0.2,
+          "f1-score": 0.19704433497536947,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 0.28703703703703703,
+          "recall": 0.31,
+          "f1-score": 0.2980769230769231,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 0.9767441860465116,
+          "recall": 0.42,
+          "f1-score": 0.5874125874125874,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 0.9574468085106383,
+          "recall": 0.45,
+          "f1-score": 0.6122448979591837,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.27169811320754716,
+          "recall": 0.72,
+          "f1-score": 0.39452054794520547,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.41509433962264153,
+          "recall": 0.22,
+          "f1-score": 0.2875816993464052,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.32051282051282054,
+          "recall": 0.25,
+          "f1-score": 0.2808988764044944,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.9320388349514563,
+          "recall": 0.96,
+          "f1-score": 0.9458128078817734,
+          "support": 100.0
+        },
+        "accuracy": 0.44125,
+        "macro avg": {
+          "precision": 0.5443433621462758,
+          "recall": 0.44125,
+          "f1-score": 0.4504490843752428,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.5443433621462758,
+          "recall": 0.44125,
+          "f1-score": 0.4504490843752427,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          20,
+          51,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0
+        ],
+        [
+          43,
+          31,
+          0,
+          0,
+          26,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          25,
+          42,
+          0,
+          29,
+          0,
+          0,
+          3
+        ],
+        [
+          39,
+          0,
+          0,
+          45,
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          72,
+          0,
+          25,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          47,
+          22,
+          28,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          44,
+          31,
+          25,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          0,
+          0,
+          96
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.9875,
+      "macro_f1": 0.9874686716791979,
+      "balanced_accuracy": 0.9875,
+      "log_loss": 0.042915619909763336,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "accuracy": 0.9875,
+        "macro avg": {
+          "precision": 0.9886363636363636,
+          "recall": 0.9875,
+          "f1-score": 0.9874686716791979,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.9886363636363636,
+          "recall": 0.9875,
+          "f1-score": 0.987468671679198,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 0.2794789907056838,
+      "p95_ms": 0.30328749417094514,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 163637
+    }
+  },
+  "cnn_crop_gray": {
+    "test": {
+      "n": 1600,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "log_loss": 0.00013088402920402586,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.4225,
+      "macro_f1": 0.43777258398028596,
+      "balanced_accuracy": 0.4225,
+      "log_loss": 4.325740814208984,
+      "per_class": {
+        "Long call": {
+          "precision": 0.5365853658536586,
+          "recall": 0.22,
+          "f1-score": 0.3120567375886525,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 0.6410256410256411,
+          "recall": 0.25,
+          "f1-score": 0.3597122302158273,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 0.4,
+          "f1-score": 0.5714285714285714,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 0.875,
+          "recall": 0.35,
+          "f1-score": 0.5,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.19545454545454546,
+          "recall": 0.86,
+          "f1-score": 0.31851851851851853,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.5641025641025641,
+          "recall": 0.22,
+          "f1-score": 0.31654676258992803,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.52,
+          "recall": 0.26,
+          "f1-score": 0.3466666666666667,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.7387387387387387,
+          "recall": 0.82,
+          "f1-score": 0.7772511848341233,
+          "support": 100.0
+        },
+        "accuracy": 0.4225,
+        "macro avg": {
+          "precision": 0.6338633568968934,
+          "recall": 0.4225,
+          "f1-score": 0.43777258398028596,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.6338633568968934,
+          "recall": 0.4225,
+          "f1-score": 0.43777258398028596,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          22,
+          8,
+          0,
+          2,
+          68,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          25,
+          0,
+          0,
+          55,
+          0,
+          4,
+          9
+        ],
+        [
+          6,
+          6,
+          40,
+          0,
+          43,
+          0,
+          0,
+          5
+        ],
+        [
+          6,
+          0,
+          0,
+          35,
+          48,
+          2,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          86,
+          0,
+          11,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          69,
+          22,
+          7,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          58,
+          15,
+          26,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          13,
+          0,
+          2,
+          82
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.975,
+      "macro_f1": 0.974968671679198,
+      "balanced_accuracy": 0.975,
+      "log_loss": 0.044065337628126144,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1-score": 0.9,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "accuracy": 0.975,
+        "macro avg": {
+          "precision": 0.9761363636363636,
+          "recall": 0.975,
+          "f1-score": 0.974968671679198,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.9761363636363637,
+          "recall": 0.975,
+          "f1-score": 0.9749686716791981,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 0.29237499984446913,
+      "p95_ms": 0.31451685645151883,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 163621
+    }
+  },
+  "transfer": {
+    "test": {
+      "n": 1600,
+      "accuracy": 0.999375,
+      "macro_f1": 0.9993749960937256,
+      "balanced_accuracy": 0.999375,
+      "log_loss": 0.003721747314557433,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bull spread": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Bear spread": {
+          "precision": 0.9950248756218906,
+          "recall": 1.0,
+          "f1-score": 0.9975062344139651,
+          "support": 200.0
+        },
+        "Long straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long strangle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "Long butterfly": {
+          "precision": 1.0,
+          "recall": 0.995,
+          "f1-score": 0.9974937343358395,
+          "support": 200.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 200.0
+        },
+        "accuracy": 0.999375,
+        "macro avg": {
+          "precision": 0.9993781094527363,
+          "recall": 0.999375,
+          "f1-score": 0.9993749960937256,
+          "support": 1600.0
+        },
+        "weighted avg": {
+          "precision": 0.9993781094527364,
+          "recall": 0.999375,
+          "f1-score": 0.9993749960937257,
+          "support": 1600.0
+        }
+      },
+      "confusion": [
+        [
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          200,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          199,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          200
+        ]
+      ]
+    },
+    "ood": {
+      "n": 800,
+      "accuracy": 0.84875,
+      "macro_f1": 0.8531050098515884,
+      "balanced_accuracy": 0.84875,
+      "log_loss": 0.6733861565589905,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 0.81,
+          "f1-score": 0.8950276243093923,
+          "support": 100.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1-score": 0.8571428571428571,
+          "support": 100.0
+        },
+        "Bull spread": {
+          "precision": 0.6024096385542169,
+          "recall": 1.0,
+          "f1-score": 0.7518796992481203,
+          "support": 100.0
+        },
+        "Bear spread": {
+          "precision": 0.7684210526315789,
+          "recall": 0.73,
+          "f1-score": 0.7487179487179487,
+          "support": 100.0
+        },
+        "Long straddle": {
+          "precision": 0.8865979381443299,
+          "recall": 0.86,
+          "f1-score": 0.8730964467005076,
+          "support": 100.0
+        },
+        "Long strangle": {
+          "precision": 0.9213483146067416,
+          "recall": 0.82,
+          "f1-score": 0.8677248677248677,
+          "support": 100.0
+        },
+        "Long butterfly": {
+          "precision": 0.9032258064516129,
+          "recall": 0.84,
+          "f1-score": 0.8704663212435233,
+          "support": 100.0
+        },
+        "Short straddle": {
+          "precision": 0.9423076923076923,
+          "recall": 0.98,
+          "f1-score": 0.9607843137254902,
+          "support": 100.0
+        },
+        "accuracy": 0.84875,
+        "macro avg": {
+          "precision": 0.8780388053370216,
+          "recall": 0.84875,
+          "f1-score": 0.8531050098515884,
+          "support": 800.0
+        },
+        "weighted avg": {
+          "precision": 0.8780388053370216,
+          "recall": 0.84875,
+          "f1-score": 0.8531050098515884,
+          "support": 800.0
+        }
+      },
+      "confusion": [
+        [
+          81,
+          0,
+          8,
+          0,
+          4,
+          0,
+          5,
+          2
+        ],
+        [
+          0,
+          75,
+          6,
+          15,
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          100,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          27,
+          73,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          86,
+          7,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          7,
+          4,
+          6,
+          82,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          15,
+          1,
+          0,
+          0,
+          84,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          98
+        ]
+      ]
+    },
+    "independent": {
+      "n": 80,
+      "accuracy": 0.8625,
+      "macro_f1": 0.8590911464266727,
+      "balanced_accuracy": 0.8625,
+      "log_loss": 0.31184226274490356,
+      "per_class": {
+        "Long call": {
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1-score": 0.8888888888888888,
+          "support": 10.0
+        },
+        "Long put": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
+          "support": 10.0
+        },
+        "Bull spread": {
+          "precision": 0.6428571428571429,
+          "recall": 0.9,
+          "f1-score": 0.75,
+          "support": 10.0
+        },
+        "Bear spread": {
+          "precision": 0.8333333333333334,
+          "recall": 0.5,
+          "f1-score": 0.625,
+          "support": 10.0
+        },
+        "Long straddle": {
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1-score": 0.8,
+          "support": 10.0
+        },
+        "Long strangle": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 10.0
+        },
+        "Long butterfly": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "Short straddle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "accuracy": 0.8625,
+        "macro avg": {
+          "precision": 0.8773268398268399,
+          "recall": 0.8625,
+          "f1-score": 0.8590911464266727,
+          "support": 80.0
+        },
+        "weighted avg": {
+          "precision": 0.8773268398268398,
+          "recall": 0.8625,
+          "f1-score": 0.8590911464266726,
+          "support": 80.0
+        }
+      },
+      "confusion": [
+        [
+          8,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          9,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    "latency": {
+      "median_ms": 35.21295799873769,
+      "p95_ms": 36.13287064945325,
+      "batch_size": 1,
+      "warmup": 10,
+      "repeats": 50,
+      "method": "perf_counter, CPU, preprocessing + prediction; excludes file decoding and model loading",
+      "hardware": "macOS-27.2-arm64-arm-64bit",
+      "threads": 4,
+      "model_bytes": 3858994
+    }
+  }
+}

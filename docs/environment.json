@@ -1,0 +1,9 @@
+{
+  "python": "3.12.5 (main, Aug  6 2024, 19:08:49) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "torch": "2.15.0",
+  "mps_available": false,
+  "cuda_available": false,
+  "cnn_parameters": 39768,
+  "tests_passed": 23
+}

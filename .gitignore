@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.env*
+!.env.example
+data/generated/
+models/*.pt
+models/*.joblib
+models/cache/
+docs/*_source.txt
+tmp/
+*.log
+.aws/
+*.pem
+*.key
+
+# Personal assessment is submitted separately, not published.
+docs/self_assessment*.docx
+docs/PLAN.md
+docs/RUBRIC_TRACKER.md
+docs/SUBMISSION_CHECKLIST.md
+docs/rubric_claims.json

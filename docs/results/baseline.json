@@ -1,0 +1,11 @@
+{
+  "config": {
+    "name": "baseline",
+    "size": 16,
+    "crop": false,
+    "gray": false
+  },
+  "val_accuracy": 1.0,
+  "seconds": 7.131655667006271,
+  "model_bytes": 36960852
+}
