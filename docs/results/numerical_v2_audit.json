@@ -1,0 +1,2603 @@
+{
+  "purpose": "Numerical development audit with known category supplied; no manual tick corrections",
+  "n": 24,
+  "recovered": 23,
+  "median_strike_error": 0.25,
+  "max_strike_error": 0.4300000000000068,
+  "rows": [
+    {
+      "family": 2,
+      "label": 0,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.76
+          ],
+          "breakevens": [
+            104.35
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 4.6,
+          "fit_error": 2.269644689747382e-06,
+          "observed_price_range": [
+            40.48,
+            159.6
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 151.93188720464676,
+            "intercept": 17.387036344237874,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.14825581388427467,
+                "y": 0.8100775193060168,
+                "right": 0.168604650995006,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3466569766442587,
+                "y": 0.8032945733648256,
+                "right": 0.36627906942108707,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5443313952761628,
+                "y": 0.8100775193360841,
+                "right": 0.5697674427242151,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7412790696947675,
+                "y": 0.8071705424055232,
+                "right": 0.7674418593574466,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9382267441133721,
+                "y": 0.811046511583862,
+                "right": 0.9651162781099542,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0007361041106985766
+          },
+          "y": {
+            "slope": -123.19460463963127,
+            "intercept": 84.59180873510245,
+            "ticks": [
+              {
+                "value": 62.0,
+                "x": 0.12136627899709304,
+                "y": 0.18410852704872643,
+                "right": 0.1395348831061154,
+                "text": "62",
+                "corrected_from": null
+              },
+              {
+                "value": 44.0,
+                "x": 0.12209302328811371,
+                "y": 0.3304263563845823,
+                "right": 0.14244186039884504,
+                "text": "44",
+                "corrected_from": null
+              },
+              {
+                "value": 25.0,
+                "x": 0.12063953466569766,
+                "y": 0.4835271315083979,
+                "right": 0.13808139444081702,
+                "text": "25",
+                "corrected_from": null
+              },
+              {
+                "value": 6.0,
+                "x": 0.13008720920888706,
+                "y": 0.6327519377768549,
+                "right": 0.13953488343034973,
+                "text": "6",
+                "corrected_from": null
+              },
+              {
+                "value": -12.0,
+                "x": 0.11482558134910148,
+                "y": 0.787790697599542,
+                "right": 0.1395348844632508,
+                "text": "-12",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.008651134131381629
+          }
+        }
+      }
+    },
+    {
+      "family": 2,
+      "label": 1,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.74
+          ],
+          "breakevens": [
+            95.25
+          ],
+          "max_profit": 95.45,
+          "max_loss": 4.49,
+          "fit_error": 2.267632870494738e-06,
+          "observed_price_range": [
+            39.97,
+            159.38
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 188.9388760143215,
+            "intercept": 1.0516539979630923,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.2049418601501938,
+                "y": 0.8032945733365634,
+                "right": 0.22529069726092515,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 64.0,
+                "x": 0.33430232541787797,
+                "y": 0.8042635656250001,
+                "right": 0.35610465119641527,
+                "text": "64",
+                "corrected_from": null
+              },
+              {
+                "value": 88.0,
+                "x": 0.46075581387735326,
+                "y": 0.8081395348006642,
+                "right": 0.4811046509880846,
+                "text": "88",
+                "corrected_from": null
+              },
+              {
+                "value": 112.0,
+                "x": 0.5870917262499152,
+                "y": 0.8037500615817599,
+                "right": 0.6164023574721104,
+                "text": "112",
+                "corrected_from": null
+              },
+              {
+                "value": 136.0,
+                "x": 0.7142988055981333,
+                "y": 0.8028143960989986,
+                "right": 0.744283843507747,
+                "text": "136",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8408430234738373,
+                "y": 0.8081395346345515,
+                "right": 0.8706395348060313,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0018905108081251972
+          },
+          "y": {
+            "slope": -134.6989788772822,
+            "intercept": 93.0282052060348,
+            "ticks": [
+              {
+                "value": 62.0,
+                "x": 0.17587209295058137,
+                "y": 0.22771317821220927,
+                "right": 0.1947674413935067,
+                "text": "62",
+                "corrected_from": null
+              },
+              {
+                "value": 44.0,
+                "x": 0.1758720929505814,
+                "y": 0.367248061946867,
+                "right": 0.19622093006131275,
+                "text": "44",
+                "corrected_from": null
+              },
+              {
+                "value": 25.0,
+                "x": 0.17587209286469346,
+                "y": 0.5067829455162085,
+                "right": 0.1976744186432308,
+                "text": "25",
+                "corrected_from": null
+              },
+              {
+                "value": 6.0,
+                "x": 0.18604651155523255,
+                "y": 0.6434108524709302,
+                "right": 0.1962209301105982,
+                "text": "6",
+                "corrected_from": null
+              },
+              {
+                "value": -12.0,
+                "x": 0.1678779069084259,
+                "y": 0.78003875964835,
+                "right": 0.19350292174335973,
+                "text": "-12",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.005942347741473856
+          }
+        }
+      }
+    },
+    {
+      "family": 2,
+      "label": 2,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            89.62,
+            109.64
+          ],
+          "breakevens": [
+            94.45
+          ],
+          "max_profit": 14.71,
+          "max_loss": 4.68,
+          "fit_error": 8.474009881461394e-07,
+          "observed_price_range": [
+            39.94,
+            159.68
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 156.77755259033688,
+            "intercept": 18.967881272051006,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.13299418571220928,
+                "y": 0.7936046508333334,
+                "right": 0.14970930115342565,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3270348835755814,
+                "y": 0.7955426354554264,
+                "right": 0.3444767433507008,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5167151162063953,
+                "y": 0.7926356586101884,
+                "right": 0.5406976749866417,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7085755813065245,
+                "y": 0.792635658677864,
+                "right": 0.7325581400867709,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8989825580253322,
+                "y": 0.7945736431339978,
+                "right": 0.9244186033541083,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0019967494224701456
+          },
+          "y": {
+            "slope": -38.033766624954026,
+            "intercept": 22.35106329389998,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.1082848836446221,
+                "y": 0.1414728681104651,
+                "right": 0.12645348775364446,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": 11.0,
+                "x": 0.10901162772529069,
+                "y": 0.29844961213662785,
+                "right": 0.12790697616821603,
+                "text": "11",
+                "corrected_from": null
+              },
+              {
+                "value": 5.0,
+                "x": 0.11482558132267442,
+                "y": 0.45445736415939925,
+                "right": 0.1235465112102341,
+                "text": "5",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.10901162790697674,
+                "y": 0.6143410850221483,
+                "right": 0.12354651140612226,
+                "text": "-1",
+                "corrected_from": null
+              },
+              {
+                "value": -7.0,
+                "x": 0.10901162790697674,
+                "y": 0.7722868215254708,
+                "right": 0.12354651140612226,
+                "text": "-7",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0027640818529017785
+          }
+        }
+      }
+    },
+    {
+      "family": 2,
+      "label": 3,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            90.02,
+            110.02
+          ],
+          "breakevens": [
+            105.24
+          ],
+          "max_profit": 14.76,
+          "max_loss": 4.64,
+          "fit_error": 1.5047738171625782e-06,
+          "observed_price_range": [
+            40.38,
+            159.47
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 170.13571658427495,
+            "intercept": 4.309361342654042,
+            "ticks": [
+              {
+                "value": 80.0,
+                "x": 0.4454941858492525,
+                "y": 0.7848837206810632,
+                "right": 0.46511627862608085,
+                "text": "80",
+                "corrected_from": null
+              },
+              {
+                "value": 120.0,
+                "x": 0.6787790697189923,
+                "y": 0.7829457362187769,
+                "right": 0.7107558140528952,
+                "text": "120",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.91569767434593,
+                "y": 0.7858527131268167,
+                "right": 0.943313952676415,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.002575940353721151
+          },
+          "y": {
+            "slope": -44.35520984358366,
+            "intercept": 26.588787062897087,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.18241279062499996,
+                "y": 0.21608527123113008,
+                "right": 0.2005813947340223,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": 11.0,
+                "x": 0.18168604643895347,
+                "y": 0.35174418596414725,
+                "right": 0.19912790727371096,
+                "text": "11",
+                "corrected_from": null
+              },
+              {
+                "value": 5.0,
+                "x": 0.19113372085755814,
+                "y": 0.4864341082170543,
+                "right": 0.19912790694103388,
+                "text": "5",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.18459302328003874,
+                "y": 0.622093022997416,
+                "right": 0.19912790677918427,
+                "text": "-1",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0007166732140644586
+          }
+        }
+      }
+    },
+    {
+      "family": 2,
+      "label": 4,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.65
+          ],
+          "breakevens": [
+            89.91,
+            109.4
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 9.75,
+          "fit_error": 2.98757555010345e-06,
+          "observed_price_range": [
+            39.91,
+            159.51
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 170.36699402689737,
+            "intercept": 10.60685344001424,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.1729651161991279,
+                "y": 0.8594961239680234,
+                "right": 0.18895348836607942,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3481104649588178,
+                "y": 0.857558139260336,
+                "right": 0.3648255814596723,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.524709302244832,
+                "y": 0.8575581393303189,
+                "right": 0.5479651166911753,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.700581395257994,
+                "y": 0.8556201548086241,
+                "right": 0.7238372097043374,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8771802325218022,
+                "y": 0.859496123961025,
+                "right": 0.8997093026342425,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0007217754637198463
+          },
+          "y": {
+            "slope": -110.25051708282416,
+            "intercept": 75.04111521579334,
+            "ticks": [
+              {
+                "value": 57.0,
+                "x": 0.14752906969476745,
+                "y": 0.1618217053522572,
+                "right": 0.16133720886000996,
+                "text": "57",
+                "corrected_from": null
+              },
+              {
+                "value": 39.0,
+                "x": 0.1482558140116279,
+                "y": 0.32945736406976744,
+                "right": 0.1627906975107734,
+                "text": "39",
+                "corrected_from": null
+              },
+              {
+                "value": 20.0,
+                "x": 0.14680232551299588,
+                "y": 0.49903100767783853,
+                "right": 0.16133720901214138,
+                "text": "20",
+                "corrected_from": null
+              },
+              {
+                "value": -17.0,
+                "x": 0.14607558133122436,
+                "y": 0.8343023255072961,
+                "right": 0.16860465144366468,
+                "text": "-17",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.003807155805983438
+          }
+        }
+      }
+    },
+    {
+      "family": 2,
+      "label": 5,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            89.89,
+            109.66
+          ],
+          "breakevens": [
+            80.17,
+            119.38
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 9.7,
+          "fit_error": 2.517248594815237e-06,
+          "observed_price_range": [
+            40.15,
+            159.42
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 159.4525400850803,
+            "intercept": 16.870727516091208,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.1438953484883721,
+                "y": 0.7974806198255815,
+                "right": 0.16133720826349146,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3343023254360465,
+                "y": 0.8003875966838931,
+                "right": 0.35319767387897183,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5218023254941861,
+                "y": 0.803294573478682,
+                "right": 0.5494186038246711,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7099066192896135,
+                "y": 0.8008243097220559,
+                "right": 0.7385260994226701,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.896802325519103,
+                "y": 0.8032945734080841,
+                "right": 0.925872092517394,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0015399471750836705
+          },
+          "y": {
+            "slope": -98.52854132365209,
+            "intercept": 60.578997688693704,
+            "ticks": [
+              {
+                "value": 46.0,
+                "x": 0.11627906969476745,
+                "y": 0.15019379837473568,
+                "right": 0.1351744181376928,
+                "text": "46",
+                "corrected_from": null
+              },
+              {
+                "value": 30.0,
+                "x": 0.11700581388081396,
+                "y": 0.30620155031376894,
+                "right": 0.13517441798983632,
+                "text": "30",
+                "corrected_from": null
+              },
+              {
+                "value": 15.0,
+                "x": 0.11700581400539867,
+                "y": 0.4622093020902548,
+                "right": 0.13517441811442102,
+                "text": "15",
+                "corrected_from": null
+              },
+              {
+                "value": -0.0,
+                "x": 0.11991279068859012,
+                "y": 0.619186046305717,
+                "right": 0.1351744185216386,
+                "text": "-0",
+                "corrected_from": null
+              },
+              {
+                "value": -16.0,
+                "x": 0.10973837205305233,
+                "y": 0.7751937983914728,
+                "right": 0.13372093083329864,
+                "text": "-16",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.006911294544643454
+          }
+        }
+      }
+    },
+    {
+      "family": 2,
+      "label": 6,
+      "expected_strikes": [
+        80,
+        100,
+        120
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            79.69,
+            99.87,
+            120.05
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 3.1440640662006235e-06,
+          "observed_price_range": [
+            39.75,
+            159.8
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss labeling was not verified, so breakevens and profit/loss limits are withheld.",
+        "axis_evidence": {
+          "x": {
+            "slope": 189.79310332283785,
+            "intercept": 1.7931035225696856,
+            "ticks": [
+              {
+                "value": 80.0,
+                "x": 0.4120639534156977,
+                "y": 0.8100775193060168,
+                "right": 0.43023255752472006,
+                "text": "80",
+                "corrected_from": null
+              },
+              {
+                "value": 120.0,
+                "x": 0.622819767369186,
+                "y": 0.8071705423726467,
+                "right": 0.649709301365768,
+                "text": "120",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8335755816012597,
+                "y": 0.8091085268572351,
+                "right": 0.8604651155978417,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 2.203071503004139e-10
+          },
+          "y": {
+            "slope": -38.83833546720191,
+            "intercept": 23.338571515195948,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.17151162772009965,
+                "y": 0.1637596896594684,
+                "right": 0.188953487495219,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": 11.0,
+                "x": 0.17296511610142118,
+                "y": 0.31686046491171405,
+                "right": 0.19186046454434655,
+                "text": "11",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.175145348828125,
+                "y": 0.6269379842659883,
+                "right": 0.1918604653289795,
+                "text": "-1",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0017910268145132511
+          }
+        }
+      }
+    },
+    {
+      "family": 2,
+      "label": 7,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.77
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 1.4777881259661328e-06,
+          "observed_price_range": [
+            39.63,
+            159.97
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss labeling was not verified, so breakevens and profit/loss limits are withheld.",
+        "axis_evidence": {
+          "x": {
+            "slope": 168.00968453072144,
+            "intercept": 7.496993468585921,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.1933139535755814,
+                "y": 0.8362403097868216,
+                "right": 0.2093023257425329,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3720930230689369,
+                "y": 0.8352713175802879,
+                "right": 0.38953488284405624,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5508720929525621,
+                "y": 0.8352713176102794,
+                "right": 0.5757376312317777,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7289244185228925,
+                "y": 0.8352713176114341,
+                "right": 0.7543604638516684,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9077034883376682,
+                "y": 0.8372093022439819,
+                "right": 0.9331395336664443,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.00040700018603452294
+          },
+          "y": {
+            "slope": -120.4970862869161,
+            "intercept": 40.34195172448711,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.16715116271419828,
+                "y": 0.19282945727764178,
+                "right": 0.18313953488114978,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.16787790700789035,
+                "y": 0.34593023232281284,
+                "right": 0.18313953484093884,
+                "text": "-1",
+                "corrected_from": null
+              },
+              {
+                "value": -20.0,
+                "x": 0.1613372092629473,
+                "y": 0.4999999999296998,
+                "right": 0.18335068913151828,
+                "text": "-20",
+                "corrected_from": null
+              },
+              {
+                "value": -39.0,
+                "x": 0.1613372092640759,
+                "y": 0.655038759618523,
+                "right": 0.18313953504261324,
+                "text": "-39",
+                "corrected_from": null
+              },
+              {
+                "value": -57.0,
+                "x": 0.16133720926195091,
+                "y": 0.8100775193044789,
+                "right": 0.18313953504048824,
+                "text": "-57",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.005563375479181773
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 0,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.67
+          ],
+          "breakevens": [
+            104.14
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 4.47,
+          "fit_error": 2.2366385616330685e-06,
+          "observed_price_range": [
+            40.28,
+            159.61
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 152.2093224151639,
+            "intercept": 17.146779521382463,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.1482558138874207,
+                "y": 0.8100775193093728,
+                "right": 0.16860465099815203,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.35032051293411864,
+                "y": 0.8089743590633772,
+                "right": 0.378685896082312,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5436046510901162,
+                "y": 0.8100775192248062,
+                "right": 0.5697674407527953,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7412790696866925,
+                "y": 0.809108526948751,
+                "right": 0.7674418593493716,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9382267441156431,
+                "y": 0.8110465115824854,
+                "right": 0.9651162781122251,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.003906895193477785
+          },
+          "y": {
+            "slope": -123.0483719924564,
+            "intercept": 84.61645928185075,
+            "ticks": [
+              {
+                "value": 62.0,
+                "x": 0.12209302318313955,
+                "y": 0.1831395348000352,
+                "right": 0.1409883716260649,
+                "text": "62",
+                "corrected_from": null
+              },
+              {
+                "value": 44.0,
+                "x": 0.12209302318313954,
+                "y": 0.33236434100158563,
+                "right": 0.14244186029387088,
+                "text": "44",
+                "corrected_from": null
+              },
+              {
+                "value": 25.0,
+                "x": 0.1206395346656977,
+                "y": 0.4835271315083979,
+                "right": 0.13953488310862305,
+                "text": "25",
+                "corrected_from": null
+              },
+              {
+                "value": 6.0,
+                "x": 0.12863372085755814,
+                "y": 0.6366279068269908,
+                "right": 0.13953488374682682,
+                "text": "6",
+                "corrected_from": null
+              },
+              {
+                "value": -12.0,
+                "x": 0.11555232553167075,
+                "y": 0.7868217053345574,
+                "right": 0.13953488431191705,
+                "text": "-12",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0037896187397294823
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 1,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.6
+          ],
+          "breakevens": [
+            94.91
+          ],
+          "max_profit": 95.34,
+          "max_loss": 4.71,
+          "fit_error": 2.2676328704947504e-06,
+          "observed_price_range": [
+            39.66,
+            159.41
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 189.4652521439849,
+            "intercept": 0.63408726480384,
+            "ticks": [
+              {
+                "value": 64.0,
+                "x": 0.33502906959484013,
+                "y": 0.8032945733648256,
+                "right": 0.3561046510394745,
+                "text": "64",
+                "corrected_from": null
+              },
+              {
+                "value": 88.0,
+                "x": 0.460755813880814,
+                "y": 0.8081395348044397,
+                "right": 0.4811046509915453,
+                "text": "88",
+                "corrected_from": null
+              },
+              {
+                "value": 112.0,
+                "x": 0.5872093022286822,
+                "y": 0.8042635655361756,
+                "right": 0.6162790692269732,
+                "text": "112",
+                "corrected_from": null
+              },
+              {
+                "value": 136.0,
+                "x": 0.714389534818314,
+                "y": 0.8032945734205428,
+                "right": 0.7441860461505081,
+                "text": "136",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8415697676495018,
+                "y": 0.8081395346345515,
+                "right": 0.8720930233155987,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0011505667828634418
+          },
+          "y": {
+            "slope": -135.41761809876346,
+            "intercept": 93.33118461658218,
+            "ticks": [
+              {
+                "value": 62.0,
+                "x": 0.1758720930855482,
+                "y": 0.2286821702934662,
+                "right": 0.19476744152847353,
+                "text": "62",
+                "corrected_from": null
+              },
+              {
+                "value": 44.0,
+                "x": 0.1751453487645349,
+                "y": 0.3672480619438827,
+                "right": 0.19622093020916923,
+                "text": "44",
+                "corrected_from": null
+              },
+              {
+                "value": 25.0,
+                "x": 0.17587209286579455,
+                "y": 0.5067829455345607,
+                "right": 0.19767441864433188,
+                "text": "25",
+                "corrected_from": null
+              },
+              {
+                "value": 6.0,
+                "x": 0.1867732557412791,
+                "y": 0.6424418602820844,
+                "right": 0.19622092996274176,
+                "text": "6",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.007154878272242117
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 2,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            89.59,
+            109.62
+          ],
+          "breakevens": [
+            94.43
+          ],
+          "max_profit": 14.67,
+          "max_loss": 4.67,
+          "fit_error": 8.474009881461445e-07,
+          "observed_price_range": [
+            39.91,
+            159.65
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 156.77791440950844,
+            "intercept": 18.944906772579063,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.13372092991763565,
+                "y": 0.7974806198481912,
+                "right": 0.152616278360561,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3270348835574128,
+                "y": 0.7955426354045543,
+                "right": 0.34447674333253214,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.515988372030731,
+                "y": 0.7926356586101884,
+                "right": 0.540697673025604,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7085755813135901,
+                "y": 0.7926356586482559,
+                "right": 0.7325581400938364,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8997093022529071,
+                "y": 0.798449612357881,
+                "right": 0.9244186053670564,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0018062812988889714
+          },
+          "y": {
+            "slope": -37.917331021184886,
+            "intercept": 22.283248550337518,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.10828488354832849,
+                "y": 0.13953488345445741,
+                "right": 0.12645348765735084,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": 11.0,
+                "x": 0.1075581393895349,
+                "y": 0.29844961220930233,
+                "right": 0.12645348783246024,
+                "text": "11",
+                "corrected_from": null
+              },
+              {
+                "value": 5.0,
+                "x": 0.11482558131229237,
+                "y": 0.45445736410575865,
+                "right": 0.12499999986765804,
+                "text": "5",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.11046511627906977,
+                "y": 0.6133720928156146,
+                "right": 0.12354651111040929,
+                "text": "-1",
+                "corrected_from": null
+              },
+              {
+                "value": -7.0,
+                "x": 0.10973837208494831,
+                "y": 0.7732558137812231,
+                "right": 0.12499999991799682,
+                "text": "-7",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0021432600218466527
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 3,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            90.0,
+            110.01
+          ],
+          "breakevens": [
+            105.22
+          ],
+          "max_profit": 14.75,
+          "max_loss": 4.64,
+          "fit_error": 1.5047738171625816e-06,
+          "observed_price_range": [
+            40.34,
+            159.48
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 170.18897272415893,
+            "intercept": 4.264756142139017,
+            "ticks": [
+              {
+                "value": 80.0,
+                "x": 0.4456421073705703,
+                "y": 0.783863278495698,
+                "right": 0.4665569056832873,
+                "text": "80",
+                "corrected_from": null
+              },
+              {
+                "value": 120.0,
+                "x": 0.678779069743217,
+                "y": 0.7819767438468992,
+                "right": 0.7107558140771201,
+                "text": "120",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9156976743956549,
+                "y": 0.7858527130915952,
+                "right": 0.9433139527261399,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.002681640895033155
+          },
+          "y": {
+            "slope": -44.318879408406104,
+            "intercept": 26.56436208305751,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.18241279072492733,
+                "y": 0.2160852711119186,
+                "right": 0.20058139483394968,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": 11.0,
+                "x": 0.18095930225290696,
+                "y": 0.3507751937168503,
+                "right": 0.19767441875376146,
+                "text": "11",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.18531976745397288,
+                "y": 0.622093022997416,
+                "right": 0.1991279066192154,
+                "text": "-1",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0010221429588962315
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 4,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.7
+          ],
+          "breakevens": [
+            89.73,
+            109.68
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 10.01,
+          "fit_error": 2.9875755501034325e-06,
+          "observed_price_range": [
+            39.89,
+            159.63
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 170.57816286888547,
+            "intercept": 10.545637859896893,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.17296511621067034,
+                "y": 0.8594961239569083,
+                "right": 0.18895348837762183,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3481104649588178,
+                "y": 0.8556201547319122,
+                "right": 0.3648255814596723,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.524709302252907,
+                "y": 0.8565891470687984,
+                "right": 0.5479651166992503,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.6998546510780039,
+                "y": 0.8546511624677003,
+                "right": 0.7223837211904443,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8764534882994186,
+                "y": 0.859496123982558,
+                "right": 0.8997093027457619,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0006203456997695867
+          },
+          "y": {
+            "slope": -110.72252843637263,
+            "intercept": 75.1429859732702,
+            "ticks": [
+              {
+                "value": 57.0,
+                "x": 0.14680232551299588,
+                "y": 0.1618217053522572,
+                "right": 0.16133720901214138,
+                "text": "57",
+                "corrected_from": null
+              },
+              {
+                "value": 39.0,
+                "x": 0.1468023256229236,
+                "y": 0.32945736414728677,
+                "right": 0.16133720912206911,
+                "text": "39",
+                "corrected_from": null
+              },
+              {
+                "value": 20.0,
+                "x": 0.14680232550872094,
+                "y": 0.4980620154392764,
+                "right": 0.16133720900786644,
+                "text": "20",
+                "corrected_from": null
+              },
+              {
+                "value": 1.0,
+                "x": 0.15334302318313955,
+                "y": 0.6686046509966777,
+                "right": 0.15988372059880931,
+                "text": "1",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.00598868566250234
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 5,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            89.9,
+            109.64
+          ],
+          "breakevens": [
+            80.22,
+            119.32
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 9.65,
+          "fit_error": 2.517248594815266e-06,
+          "observed_price_range": [
+            40.22,
+            159.35
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 159.2585955250531,
+            "intercept": 16.967938656693217,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.14389534876453486,
+                "y": 0.8042635658210007,
+                "right": 0.1627906972074602,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.33357558124273257,
+                "y": 0.8013565889631782,
+                "right": 0.3531976740195609,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5218023254844961,
+                "y": 0.8032945734603789,
+                "right": 0.5494186038149811,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7100290696786177,
+                "y": 0.8032945734388458,
+                "right": 0.7383720923430057,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8975290696928541,
+                "y": 0.8052325580904749,
+                "right": 0.9259472715632425,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0009624183039939875
+          },
+          "y": {
+            "slope": -98.40716624093074,
+            "intercept": 60.5419211113223,
+            "ticks": [
+              {
+                "value": 46.0,
+                "x": 0.11700581387751056,
+                "y": 0.15019379837473568,
+                "right": 0.1366279066543389,
+                "text": "46",
+                "corrected_from": null
+              },
+              {
+                "value": 30.0,
+                "x": 0.11700581388411735,
+                "y": 0.3062015503171248,
+                "right": 0.1351744179931397,
+                "text": "30",
+                "corrected_from": null
+              },
+              {
+                "value": 15.0,
+                "x": 0.11700581388081395,
+                "y": 0.4622093022471392,
+                "right": 0.1366279066576423,
+                "text": "15",
+                "corrected_from": null
+              },
+              {
+                "value": -0.0,
+                "x": 0.12063953485142119,
+                "y": 0.6191860463285961,
+                "right": 0.1351744183505667,
+                "text": "-0",
+                "corrected_from": null
+              },
+              {
+                "value": -16.0,
+                "x": 0.11119186041556553,
+                "y": 0.7761627906227979,
+                "right": 0.13662790786361784,
+                "text": "-16",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.00660474590377879
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 6,
+      "expected_strikes": [
+        80,
+        100,
+        120
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            79.8,
+            99.95,
+            120.1
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 3.144064066200642e-06,
+          "observed_price_range": [
+            39.94,
+            159.77
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss labeling was not verified, so breakevens and profit/loss limits are withheld.",
+        "axis_evidence": {
+          "x": {
+            "slope": 189.46625004042187,
+            "intercept": 2.0425720645417504,
+            "ticks": [
+              {
+                "value": 80.0,
+                "x": 0.41133720913275196,
+                "y": 0.8071705423288114,
+                "right": 0.4302325575756773,
+                "text": "80",
+                "corrected_from": null
+              },
+              {
+                "value": 120.0,
+                "x": 0.6228197673530361,
+                "y": 0.8042635656546082,
+                "right": 0.6497093013496181,
+                "text": "120",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8335755813226744,
+                "y": 0.8100775193328634,
+                "right": 0.8604651153192564,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0005737229496183716
+          },
+          "y": {
+            "slope": -38.82024845984385,
+            "intercept": 23.338135948454422,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.17223837187500005,
+                "y": 0.1637596896594684,
+                "right": 0.1904069759840224,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": 11.0,
+                "x": 0.17151162769933553,
+                "y": 0.3178294570874861,
+                "right": 0.1889534874744549,
+                "text": "11",
+                "corrected_from": null
+              },
+              {
+                "value": 5.0,
+                "x": 0.18095930224382267,
+                "y": 0.47093023234011633,
+                "right": 0.19040697646528537,
+                "text": "5",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.17514534888081396,
+                "y": 0.6279069764341085,
+                "right": 0.18895348804605647,
+                "text": "-1",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.00313929565328408
+          }
+        }
+      }
+    },
+    {
+      "family": 12,
+      "label": 7,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.77
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 1.477788125966121e-06,
+          "observed_price_range": [
+            39.73,
+            159.87
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss labeling was not verified, so breakevens and profit/loss limits are withheld.",
+        "axis_evidence": {
+          "x": {
+            "slope": 167.73638768663622,
+            "intercept": 7.6474656214553205,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.1925872092332849,
+                "y": 0.8381782945009689,
+                "right": 0.2093023257341394,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3720930230620155,
+                "y": 0.8362403098029716,
+                "right": 0.3895348828371349,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5508720929850062,
+                "y": 0.8372093022439819,
+                "right": 0.5755813960991554,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7289244185319768,
+                "y": 0.8362403098944875,
+                "right": 0.7543604638607528,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9084302327906977,
+                "y": 0.8362403097868216,
+                "right": 0.9331395337855707,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.000711545978409589
+          },
+          "y": {
+            "slope": -120.91629299600677,
+            "intercept": 40.39337390750144,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.16715116283914727,
+                "y": 0.19089147259366923,
+                "right": 0.18313953500609878,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.1686046511627907,
+                "y": 0.34593023232281284,
+                "right": 0.1816860459941302,
+                "text": "-1",
+                "corrected_from": null
+              },
+              {
+                "value": -20.0,
+                "x": 0.16206395344026311,
+                "y": 0.49999999993326716,
+                "right": 0.18331192529288357,
+                "text": "-20",
+                "corrected_from": null
+              },
+              {
+                "value": -39.0,
+                "x": 0.16206395344629745,
+                "y": 0.655038759618523,
+                "right": 0.1831395348909318,
+                "text": "-39",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.007771918218222952
+          }
+        }
+      }
+    },
+    {
+      "family": 22,
+      "label": 0,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.77
+          ],
+          "breakevens": [
+            104.81
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 5.1,
+          "fit_error": 2.269644689747375e-06,
+          "observed_price_range": [
+            40.51,
+            159.6
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 151.8919838673986,
+            "intercept": 17.42452119887072,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.14825581388463893,
+                "y": 0.8100775192982457,
+                "right": 0.16715116232756427,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5443313952761628,
+                "y": 0.8091085268410851,
+                "right": 0.5683139519371329,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7412790696866927,
+                "y": 0.8071705424310939,
+                "right": 0.7659883706815657,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9382267443041424,
+                "y": 0.8100775191860463,
+                "right": 0.9622093030843888,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0008674725723018639
+          },
+          "y": {
+            "slope": -124.50491966287109,
+            "intercept": 85.04125111663502,
+            "ticks": [
+              {
+                "value": 62.0,
+                "x": 0.12354651148255813,
+                "y": 0.18313953468023259,
+                "right": 0.14244185992548347,
+                "text": "62",
+                "corrected_from": null
+              },
+              {
+                "value": 44.0,
+                "x": 0.1235465114410299,
+                "y": 0.3313953485603544,
+                "right": 0.14244185988395525,
+                "text": "44",
+                "corrected_from": null
+              },
+              {
+                "value": 25.0,
+                "x": 0.12209302318313953,
+                "y": 0.4844961239534883,
+                "right": 0.13953488401789702,
+                "text": "25",
+                "corrected_from": null
+              },
+              {
+                "value": 6.0,
+                "x": 0.12863372084544572,
+                "y": 0.6327519377422481,
+                "right": 0.1380813950669084,
+                "text": "6",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.005016069163686941
+          }
+        }
+      }
+    },
+    {
+      "family": 22,
+      "label": 1,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.59
+          ],
+          "breakevens": [
+            94.79
+          ],
+          "max_profit": 95.11,
+          "max_loss": 4.82,
+          "fit_error": 2.2676328704947377e-06,
+          "observed_price_range": [
+            39.52,
+            159.54
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 189.9035804786591,
+            "intercept": 0.4000906488334955,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.20784883713978766,
+                "y": 0.8081395347994607,
+                "right": 0.229651162918325,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 64.0,
+                "x": 0.3357558137458472,
+                "y": 0.8032945733250276,
+                "right": 0.35610465085657855,
+                "text": "64",
+                "corrected_from": null
+              },
+              {
+                "value": 88.0,
+                "x": 0.46075581387698905,
+                "y": 0.8071705425489597,
+                "right": 0.4796511623199144,
+                "text": "88",
+                "corrected_from": null
+              },
+              {
+                "value": 112.0,
+                "x": 0.5879360464026163,
+                "y": 0.8023255810400517,
+                "right": 0.6162790690670044,
+                "text": "112",
+                "corrected_from": null
+              },
+              {
+                "value": 136.0,
+                "x": 0.7151162789970931,
+                "y": 0.8023255811627907,
+                "right": 0.7441860459953841,
+                "text": "136",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8394444444444444,
+                "y": 0.807037037037037,
+                "right": 0.8688888888888889,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0016936040746434362
+          },
+          "y": {
+            "slope": -135.5701815315878,
+            "intercept": 93.33717180540735,
+            "ticks": [
+              {
+                "value": 62.0,
+                "x": 0.17732558132649937,
+                "y": 0.2286821704508364,
+                "right": 0.1962209297694247,
+                "text": "62",
+                "corrected_from": null
+              },
+              {
+                "value": 44.0,
+                "x": 0.17805232550872097,
+                "y": 0.3672480619438827,
+                "right": 0.1976744182855493,
+                "text": "44",
+                "corrected_from": null
+              },
+              {
+                "value": 25.0,
+                "x": 0.17877906958979325,
+                "y": 0.5048449609926788,
+                "right": 0.1991279067005246,
+                "text": "25",
+                "corrected_from": null
+              },
+              {
+                "value": 6.0,
+                "x": 0.1875,
+                "y": 0.6425925925925926,
+                "right": 0.19777777777777777,
+                "text": "6",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.008048475347296882
+          }
+        }
+      }
+    },
+    {
+      "family": 22,
+      "label": 2,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            89.62,
+            109.64
+          ],
+          "breakevens": [
+            94.49
+          ],
+          "max_profit": 14.71,
+          "max_loss": 4.73,
+          "fit_error": 8.474009881461424e-07,
+          "observed_price_range": [
+            39.96,
+            159.65
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 156.71593255472436,
+            "intercept": 18.999730232404744,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.13226744154069767,
+                "y": 0.7936046508333334,
+                "right": 0.14970930131581703,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.327761627734375,
+                "y": 0.79457364314438,
+                "right": 0.3459302318433974,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5167151162063953,
+                "y": 0.7936046509366925,
+                "right": 0.5406976749866417,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7085755813019103,
+                "y": 0.7916666663482836,
+                "right": 0.7325581400821567,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8989825580396076,
+                "y": 0.7955426354287792,
+                "right": 0.9229651168198538,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0030433281537644535
+          },
+          "y": {
+            "slope": -38.12599715314385,
+            "intercept": 22.371136516594504,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.10828488365188954,
+                "y": 0.14147286812015503,
+                "right": 0.12500000015274404,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": 11.0,
+                "x": 0.10901162774345931,
+                "y": 0.29844961213662785,
+                "right": 0.12645348751857866,
+                "text": "11",
+                "corrected_from": null
+              },
+              {
+                "value": 5.0,
+                "x": 0.1162790696843854,
+                "y": 0.45348837187153934,
+                "right": 0.12499999957194508,
+                "text": "5",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.10828488372900516,
+                "y": 0.6143410850990525,
+                "right": 0.12500000022985966,
+                "text": "-1",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.004524452313130922
+          }
+        }
+      }
+    },
+    {
+      "family": 22,
+      "label": 3,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            89.91,
+            109.92
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 1.504773817162598e-06,
+          "observed_price_range": [
+            40.24,
+            159.41
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 170.23900142295273,
+            "intercept": 4.147084232476602,
+            "ticks": [
+              {
+                "value": 80.0,
+                "x": 0.44549418589207856,
+                "y": 0.7839147284520349,
+                "right": 0.4636627900011009,
+                "text": "80",
+                "corrected_from": null
+              },
+              {
+                "value": 120.0,
+                "x": 0.6791666664062501,
+                "y": 0.7861111108680556,
+                "right": 0.7208333330729167,
+                "text": "120",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9164244185319768,
+                "y": 0.7858527131251564,
+                "right": 0.9433139525285588,
+                "text": "160",
+                "corrected_from": null
+              },
+              {
+                "value": 40.0,
+                "x": 0.21111111111111114,
+                "y": 0.7848148148148149,
+                "right": 0.23055555555555557,
+                "text": "40",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0019355056563977514
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      }
+    },
+    {
+      "family": 22,
+      "label": 4,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.7
+          ],
+          "breakevens": [
+            89.63,
+            109.78
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 10.2,
+          "fit_error": 2.9875755501034867e-06,
+          "observed_price_range": [
+            40.13,
+            159.39
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 169.87619792592707,
+            "intercept": 10.913761342558747,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.17151162758720928,
+                "y": 0.857558139244186,
+                "right": 0.1874999997541608,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3473837207848837,
+                "y": 0.8604651160852713,
+                "right": 0.3633720929518352,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5247093022609819,
+                "y": 0.8565891470930234,
+                "right": 0.5465116280395192,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.700581395257994,
+                "y": 0.8556201548086241,
+                "right": 0.7223837210365314,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8779069767078488,
+                "y": 0.8594961239522771,
+                "right": 0.8997093024863861,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0006177907781008685
+          },
+          "y": {
+            "slope": -111.1650662011478,
+            "intercept": 75.29948234670842,
+            "ticks": [
+              {
+                "value": 57.0,
+                "x": 0.14752906958575585,
+                "y": 0.1618217051841085,
+                "right": 0.16279069741880434,
+                "text": "57",
+                "corrected_from": null
+              },
+              {
+                "value": 39.0,
+                "x": 0.14752906969930962,
+                "y": 0.3304263564983043,
+                "right": 0.16279069753235811,
+                "text": "39",
+                "corrected_from": null
+              },
+              {
+                "value": 20.0,
+                "x": 0.14825581388081394,
+                "y": 0.4980620154392764,
+                "right": 0.16279069737995946,
+                "text": "20",
+                "corrected_from": null
+              },
+              {
+                "value": 1.0,
+                "x": 0.15479651155523255,
+                "y": 0.6666666663953489,
+                "right": 0.1627906976387083,
+                "text": "1",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.00772116871481516
+          }
+        }
+      }
+    },
+    {
+      "family": 22,
+      "label": 5,
+      "expected_strikes": [
+        90,
+        110
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            89.76,
+            109.57
+          ],
+          "breakevens": [
+            79.66,
+            119.67
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 10.14,
+          "fit_error": 2.517248594815273e-06,
+          "observed_price_range": [
+            39.92,
+            159.44
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 159.78416699843802,
+            "intercept": 16.58916253482819,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.14607558132267445,
+                "y": 0.8042635658176449,
+                "right": 0.1642441854316968,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3354166662916667,
+                "y": 0.8027777773888889,
+                "right": 0.3541666662916667,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5210592074861138,
+                "y": 0.8037396046707909,
+                "right": 0.5481674677468017,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7100290696675144,
+                "y": 0.8013565889171512,
+                "right": 0.7369186036640966,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.8975290696947675,
+                "y": 0.8042635656976745,
+                "right": 0.9244186036913495,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0015286262969601931
+          },
+          "y": {
+            "slope": -99.34612417183023,
+            "intercept": 60.721182029539854,
+            "ticks": [
+              {
+                "value": 46.0,
+                "x": 0.11700581387718023,
+                "y": 0.1501937983672481,
+                "right": 0.13517441798620258,
+                "text": "46",
+                "corrected_from": null
+              },
+              {
+                "value": 30.0,
+                "x": 0.11773255806258548,
+                "y": 0.3052325580426356,
+                "right": 0.13517441889734297,
+                "text": "30",
+                "corrected_from": null
+              },
+              {
+                "value": 15.0,
+                "x": 0.11773255806303548,
+                "y": 0.462209302238882,
+                "right": 0.13517441889779297,
+                "text": "15",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.012822916675832305
+          }
+        }
+      }
+    },
+    {
+      "family": 22,
+      "label": 6,
+      "expected_strikes": [
+        80,
+        100,
+        120
+      ],
+      "result": {
+        "available": false,
+        "message": "The traced curve does not reliably match the predicted shape; numerical values are withheld.",
+        "values": null
+      }
+    },
+    {
+      "family": 22,
+      "label": 7,
+      "expected_strikes": [
+        100
+      ],
+      "result": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.72
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 1.4389766025856267e-06,
+          "observed_price_range": [
+            39.69,
+            160.01
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss labeling was not verified, so breakevens and profit/loss limits are withheld.",
+        "axis_evidence": {
+          "x": {
+            "slope": 168.2834265660708,
+            "intercept": 7.297356598668247,
+            "ticks": [
+              {
+                "value": 40.0,
+                "x": 0.19476744179161565,
+                "y": 0.837209302254182,
+                "right": 0.21075581395856716,
+                "text": "40",
+                "corrected_from": null
+              },
+              {
+                "value": 70.0,
+                "x": 0.3720930231788645,
+                "y": 0.8362403099806202,
+                "right": 0.38808139534581604,
+                "text": "70",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5508720929505815,
+                "y": 0.8343023253512597,
+                "right": 0.5741279073969248,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 130.0,
+                "x": 0.7289244185319768,
+                "y": 0.8343023253183832,
+                "right": 0.7529069773122231,
+                "text": "130",
+                "corrected_from": null
+              },
+              {
+                "value": 160.0,
+                "x": 0.9077034882994187,
+                "y": 0.8362403098698781,
+                "right": 0.930232558411859,
+                "text": "160",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0007129538288668395
+          },
+          "y": {
+            "slope": -119.8394576715746,
+            "intercept": 39.79260558026329,
+            "ticks": [
+              {
+                "value": 17.0,
+                "x": 0.16860465118355483,
+                "y": 0.1908914726328904,
+                "right": 0.1845930233505063,
+                "text": "17",
+                "corrected_from": null
+              },
+              {
+                "value": -57.0,
+                "x": 0.15988372090600775,
+                "y": 0.8100775193044789,
+                "right": 0.18313953535235106,
+                "text": "-57",
+                "corrected_from": null
+              },
+              {
+                "value": -20.0,
+                "x": 0.16166666666666668,
+                "y": 0.4992592592592593,
+                "right": 0.185,
+                "text": "-20",
+                "corrected_from": null
+              },
+              {
+                "value": -39.0,
+                "x": 0.16166666666666668,
+                "y": 0.654074074074074,
+                "right": 0.185,
+                "text": "-39",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.005523287380931567
+          }
+        }
+      }
+    }
+  ]
+}

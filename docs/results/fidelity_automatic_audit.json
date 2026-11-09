@@ -1,0 +1,1001 @@
+{
+  "split": "development",
+  "model": "cnn_diverse",
+  "checkpoint_sha256": "addab9b0dfc3efc681342c79deb33ac9deb93a5cf6fdd7b05578c4047206ad52",
+  "correct": 6,
+  "total": 6,
+  "rows": [
+    {
+      "id": "fidelity-bull-call-spread",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/bull-call-spread",
+      "image_sha256": "f6d213d00c850cef4de90720faf4005b4512635b81d2416842fc90f8b97e0e1f",
+      "expected": "Bull spread",
+      "prediction": {
+        "category": "Bull spread",
+        "confidence": 0.9993116855621338,
+        "neural_category": "Bull spread",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 2,
+          "fit_error": 2.955879458048532e-06
+        },
+        "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 5.636882020182421e-13,
+          "Long put": 1.5516476992161188e-08,
+          "Bull spread": 0.9993116855621338,
+          "Bear spread": 3.4583044029390733e-14,
+          "Long straddle": 7.373820665179665e-08,
+          "Long strangle": 3.3920122266550834e-09,
+          "Long butterfly": 1.1772998732340056e-05,
+          "Short straddle": 0.0006763650453649461
+        }
+      },
+      "correct": true,
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.99,
+            104.94
+          ],
+          "breakevens": [
+            101.72
+          ],
+          "max_profit": 3.23,
+          "max_loss": 1.74,
+          "fit_error": 2.9558794580485987e-06,
+          "observed_price_range": [
+            95.37,
+            109.95
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 22.22030833189767,
+            "intercept": 91.24149513251034,
+            "ticks": [
+              {
+                "value": 105.0,
+                "x": 0.6191860464752905,
+                "y": 0.4999999998928101,
+                "right": 0.6380813949182159,
+                "text": "105",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.39416666666666667,
+                "y": 0.5,
+                "right": 0.41444444444444445,
+                "text": "100",
+                "corrected_from": null
+              }
+            ],
+            "error": 2.842170943040401e-15
+          },
+          "y": {
+            "slope": -11.345326140779898,
+            "intercept": 5.091264898159644,
+            "ticks": [
+              {
+                "value": 4.0,
+                "x": 0.1264534882994186,
+                "y": 0.09630606854033169,
+                "right": 0.14825581407795593,
+                "text": "4.00",
+                "corrected_from": null
+              },
+              {
+                "value": 3.0,
+                "x": 0.1264534882994186,
+                "y": 0.1846965698548813,
+                "right": 0.14825581407795593,
+                "text": "3.00",
+                "corrected_from": null
+              },
+              {
+                "value": 2.0,
+                "x": 0.12645348829941863,
+                "y": 0.2717678099553481,
+                "right": 0.14825581407795596,
+                "text": "2.00",
+                "corrected_from": null
+              },
+              {
+                "value": 1.0,
+                "x": 0.12645348829941863,
+                "y": 0.358839050060889,
+                "right": 0.14825581407795596,
+                "text": "1.00",
+                "corrected_from": null
+              },
+              {
+                "value": 0.0,
+                "x": 0.12645348830040262,
+                "y": 0.4511873350180893,
+                "right": 0.14849935918731128,
+                "text": "0.00",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.1213662788405262,
+                "y": 0.5369393136523072,
+                "right": 0.14830898971699102,
+                "text": "-1.00",
+                "corrected_from": null
+              },
+              {
+                "value": -2.0,
+                "x": 0.12136627901683135,
+                "y": 0.6253298152319706,
+                "right": 0.14830018641971762,
+                "text": "-2.00",
+                "corrected_from": null
+              },
+              {
+                "value": -3.0,
+                "x": 0.12209302319991056,
+                "y": 0.7124010553379337,
+                "right": 0.1482558128625896,
+                "text": "-3.00",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0039432240299858935
+          }
+        }
+      },
+      "expected_values": {
+        "strikes": [
+          100,
+          105
+        ],
+        "breakevens": [
+          101.8
+        ],
+        "max_profit": 3.2,
+        "max_loss": 1.8
+      }
+    },
+    {
+      "id": "fidelity-bear-put-spread",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/bear-put-spread",
+      "image_sha256": "5308ec869a22f6a6192a66616b8937c35427730b286297bb2c0a3c037dcecf47",
+      "expected": "Bear spread",
+      "prediction": {
+        "category": "Bear spread",
+        "confidence": 0.7424534559249878,
+        "neural_category": "Short straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 3,
+          "fit_error": 6.865298130835451e-06
+        },
+        "explanation": "A decreasing segment between two flat tails; both gain and loss are bounded.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 7.099046115399688e-07,
+          "Long put": 1.5326365954138055e-08,
+          "Bull spread": 2.8826048037444707e-07,
+          "Bear spread": 0.2574574053287506,
+          "Long straddle": 1.1494374803078244e-06,
+          "Long strangle": 7.1585914156457875e-06,
+          "Long butterfly": 7.984824333107099e-05,
+          "Short straddle": 0.7424534559249878
+        }
+      },
+      "correct": true,
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            94.97,
+            99.92
+          ],
+          "breakevens": [
+            98.1
+          ],
+          "max_profit": 3.18,
+          "max_loss": 1.85,
+          "fit_error": 6.865298130835287e-06,
+          "observed_price_range": [
+            90.02,
+            104.91
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 22.09282410709677,
+            "intercept": 86.26562768008814,
+            "ticks": [
+              {
+                "value": 95.0,
+                "x": 0.3953488371414729,
+                "y": 0.45514511861917323,
+                "right": 0.4084302319728124,
+                "text": "95",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.6216666666666667,
+                "y": 0.453030303030303,
+                "right": 0.6422222222222222,
+                "text": "100",
+                "corrected_from": null
+              }
+            ],
+            "error": 8.526512829121202e-15
+          },
+          "y": {
+            "slope": -16.259307683382577,
+            "intercept": 6.577434013325612,
+            "ticks": [
+              {
+                "value": 5.0,
+                "x": 0.12790697667420328,
+                "y": 0.09630606853806312,
+                "right": 0.1497093024527406,
+                "text": "5.00",
+                "corrected_from": null
+              },
+              {
+                "value": 4.0,
+                "x": 0.12790697667151163,
+                "y": 0.15699208437146622,
+                "right": 0.14970930245004896,
+                "text": "4.00",
+                "corrected_from": null
+              },
+              {
+                "value": 3.0,
+                "x": 0.12790697667151163,
+                "y": 0.22163588383905014,
+                "right": 0.14970930245004896,
+                "text": "3.00",
+                "corrected_from": null
+              },
+              {
+                "value": 2.0,
+                "x": 0.12790697667151163,
+                "y": 0.28232189967018473,
+                "right": 0.14970930245004896,
+                "text": "2.00",
+                "corrected_from": null
+              },
+              {
+                "value": 1.0,
+                "x": 0.12790697667151163,
+                "y": 0.3443271767150396,
+                "right": 0.14970930245004896,
+                "text": "1.00",
+                "corrected_from": null
+              },
+              {
+                "value": 0.0,
+                "x": 0.1264534882795983,
+                "y": 0.4036939312904774,
+                "right": 0.1511627913937476,
+                "text": "0.00",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.12354651157277466,
+                "y": 0.46569920835683737,
+                "right": 0.15261627857106566,
+                "text": "-1.00",
+                "corrected_from": null
+              },
+              {
+                "value": -2.0,
+                "x": 0.12354651157080568,
+                "y": 0.527704485403317,
+                "right": 0.1511627899012907,
+                "text": "-2.00",
+                "corrected_from": null
+              },
+              {
+                "value": -3.0,
+                "x": 0.12354651156561464,
+                "y": 0.5883905012344515,
+                "right": 0.15116278989609966,
+                "text": "-3.00",
+                "corrected_from": null
+              },
+              {
+                "value": -4.0,
+                "x": 0.12427325575425667,
+                "y": 0.6517150394930268,
+                "right": 0.1526162784186447,
+                "text": "-4.00",
+                "corrected_from": null
+              },
+              {
+                "value": -5.0,
+                "x": 0.12281976727228683,
+                "y": 0.71108179391674,
+                "right": 0.15116278993667487,
+                "text": "-5.00",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0026212015691944313
+          }
+        }
+      },
+      "expected_values": {
+        "strikes": [
+          95,
+          100
+        ],
+        "breakevens": [
+          98.1
+        ],
+        "max_profit": 3.1,
+        "max_loss": 1.9
+      }
+    },
+    {
+      "id": "fidelity-long-straddle",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-straddle",
+      "image_sha256": "e931b3a0ad13f8f99b793239e2555c475969ab218edd213da2a52ff7925e8f16",
+      "expected": "Long straddle",
+      "prediction": {
+        "category": "Long straddle",
+        "confidence": 1.0,
+        "neural_category": "Long straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 4,
+          "fit_error": 6.91585307967753e-06
+        },
+        "explanation": "A V-shaped profile with its minimum at a common strike.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 4.977064767264228e-13,
+          "Long put": 3.9961478570660347e-10,
+          "Bull spread": 1.2961335563860255e-12,
+          "Bear spread": 8.438852140036257e-16,
+          "Long straddle": 1.0,
+          "Long strangle": 7.444428239003834e-14,
+          "Long butterfly": 1.8959717151302569e-13,
+          "Short straddle": 2.7102046735311136e-12
+        }
+      },
+      "correct": true,
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.96
+          ],
+          "breakevens": [
+            93.55,
+            106.38
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 6.45,
+          "fit_error": 6.915853079677498e-06,
+          "observed_price_range": [
+            89.94,
+            109.98
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 29.727260312453296,
+            "intercept": 85.06627649808406,
+            "ticks": [
+              {
+                "value": 100.0,
+                "x": 0.5029069766781183,
+                "y": 0.43667546166346843,
+                "right": 0.5218023251210437,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 95.0,
+                "x": 0.3338888888888889,
+                "y": 0.4353535353535354,
+                "right": 0.3472222222222222,
+                "text": "95",
+                "corrected_from": null
+              },
+              {
+                "value": 105.0,
+                "x": 0.6702777777777778,
+                "y": 0.43434343434343436,
+                "right": 0.6911111111111111,
+                "text": "105",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.001632310674337134
+          },
+          "y": {
+            "slope": -20.5649388783517,
+            "intercept": 7.93950838910962,
+            "ticks": [
+              {
+                "value": 6.0,
+                "x": 0.12281976736918604,
+                "y": 0.0936675461106225,
+                "right": 0.14389534881382038,
+                "text": "6.00",
+                "corrected_from": null
+              },
+              {
+                "value": 4.0,
+                "x": 0.12209302324612402,
+                "y": 0.18997361465259455,
+                "right": 0.14389534902466133,
+                "text": "4.00",
+                "corrected_from": null
+              },
+              {
+                "value": 2.0,
+                "x": 0.12209302318583118,
+                "y": 0.2902374669500635,
+                "right": 0.1438953489643685,
+                "text": "2.00",
+                "corrected_from": null
+              },
+              {
+                "value": 0.0,
+                "x": 0.12209302318313955,
+                "y": 0.3891820579768187,
+                "right": 0.14534883762948286,
+                "text": "0.00",
+                "corrected_from": null
+              },
+              {
+                "value": -2.0,
+                "x": 0.11845930224658746,
+                "y": 0.48153034289893315,
+                "right": 0.14680232491097547,
+                "text": "-2.00",
+                "corrected_from": null
+              },
+              {
+                "value": -4.0,
+                "x": 0.11845930224927327,
+                "y": 0.5804749339182058,
+                "right": 0.1468023249136613,
+                "text": "-4.00",
+                "corrected_from": null
+              },
+              {
+                "value": -6.0,
+                "x": 0.11845930223675712,
+                "y": 0.6781002637642921,
+                "right": 0.14680232490114514,
+                "text": "-6.00",
+                "corrected_from": null
+              },
+              {
+                "value": -8.0,
+                "x": 0.11845930224960359,
+                "y": 0.7744063323398898,
+                "right": 0.14680232491399162,
+                "text": "-8.00",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.004571203266770281
+          }
+        }
+      },
+      "expected_values": {
+        "strikes": [
+          100
+        ],
+        "breakevens": [
+          93.5,
+          106.5
+        ],
+        "max_profit": "unbounded",
+        "max_loss": 6.5
+      }
+    },
+    {
+      "id": "fidelity-long-strangle",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-strangle",
+      "image_sha256": "edaa4ff439fc7382c5f4a96eb5d52bd9a6844df5d2ea517cbad538b6159f1f73",
+      "expected": "Long strangle",
+      "prediction": {
+        "category": "Long strangle",
+        "confidence": 0.8429819941520691,
+        "neural_category": "Long strangle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 5,
+          "fit_error": 5.596795704614925e-06
+        },
+        "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 2.4794553610263392e-06,
+          "Long put": 2.5943995751731563e-07,
+          "Bull spread": 1.6246312952716835e-06,
+          "Bear spread": 8.679710283843178e-09,
+          "Long straddle": 0.15399299561977386,
+          "Long strangle": 0.8429819941520691,
+          "Long butterfly": 6.987305027905677e-07,
+          "Short straddle": 0.003019909607246518
+        }
+      },
+      "correct": true,
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            95.03,
+            104.86
+          ],
+          "breakevens": [
+            92.33,
+            107.57
+          ],
+          "max_profit": "unbounded",
+          "max_loss": 2.76,
+          "fit_error": 5.596795704614997e-06,
+          "observed_price_range": [
+            90.07,
+            109.78
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 29.152542373888434,
+            "intercept": 85.00000000150835,
+            "ticks": [
+              {
+                "value": 95.0,
+                "x": 0.3430232557503633,
+                "y": 0.424358974238782,
+                "right": 0.35755813924950886,
+                "text": "95",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5145348836514156,
+                "y": 0.42179487172240804,
+                "right": 0.533430232094341,
+                "text": "100",
+                "corrected_from": null
+              }
+            ],
+            "error": 2.842170943040401e-15
+          },
+          "y": {
+            "slope": -10.557827841791152,
+            "intercept": 3.9673245426171735,
+            "ticks": [
+              {
+                "value": 3.0,
+                "x": 0.1337209301598837,
+                "y": 0.0923076922435897,
+                "right": 0.15552325593842103,
+                "text": "3.00",
+                "corrected_from": null
+              },
+              {
+                "value": 2.0,
+                "x": 0.13444767440406974,
+                "y": 0.1846153844957265,
+                "right": 0.15552325584870408,
+                "text": "2.00",
+                "corrected_from": null
+              },
+              {
+                "value": 1.0,
+                "x": 0.1344476743492252,
+                "y": 0.2820512819806972,
+                "right": 0.1556500711659027,
+                "text": "1.00",
+                "corrected_from": null
+              },
+              {
+                "value": 0.0,
+                "x": 0.13383602542123071,
+                "y": 0.37605870706595895,
+                "right": 0.15589021446745469,
+                "text": "0.00",
+                "corrected_from": null
+              },
+              {
+                "value": -1.0,
+                "x": 0.12936046503960694,
+                "y": 0.46923076913440515,
+                "right": 0.15708896328654162,
+                "text": "-1.00",
+                "corrected_from": null
+              },
+              {
+                "value": -2.0,
+                "x": 0.12936046505613474,
+                "y": 0.5666666665959328,
+                "right": 0.15697674338661977,
+                "text": "-2.00",
+                "corrected_from": null
+              },
+              {
+                "value": -3.0,
+                "x": 0.1293604648982558,
+                "y": 0.6602564098931625,
+                "right": 0.15697674322874083,
+                "text": "-3.00",
+                "corrected_from": null
+              },
+              {
+                "value": -4.0,
+                "x": 0.12936046506244617,
+                "y": 0.7538461537701804,
+                "right": 0.1569767433929312,
+                "text": "-4.00",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.002598156595030535
+          }
+        }
+      },
+      "expected_values": {
+        "strikes": [
+          95,
+          105
+        ],
+        "breakevens": [
+          92.2,
+          107.8
+        ],
+        "max_profit": "unbounded",
+        "max_loss": 2.8
+      }
+    },
+    {
+      "id": "fidelity-long-butterfly-spread-calls",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-butterfly-spread-calls",
+      "image_sha256": "a268962f1fbb0a1c9e62f162ac317f5f8f7c67b756f30356f98c40299cb024ff",
+      "expected": "Long butterfly",
+      "prediction": {
+        "category": "Long butterfly",
+        "confidence": 0.5128076076507568,
+        "neural_category": "Long butterfly",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 6,
+          "fit_error": 7.522545145410248e-06
+        },
+        "explanation": "A central peak between flat loss tails, constructed with equally spaced calls.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 1.7549482700385255e-10,
+          "Long put": 1.1338564531726547e-09,
+          "Bull spread": 8.32255682325922e-06,
+          "Bear spread": 5.967478511337276e-09,
+          "Long straddle": 1.6878574982115424e-08,
+          "Long strangle": 1.7852909877547063e-05,
+          "Long butterfly": 0.5128076076507568,
+          "Short straddle": 0.48716628551483154
+        }
+      },
+      "correct": true,
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            94.95,
+            99.95,
+            104.96
+          ],
+          "breakevens": [
+            96.09,
+            103.82
+          ],
+          "max_profit": 3.86,
+          "max_loss": 1.13,
+          "fit_error": 7.52254514541027e-06,
+          "observed_price_range": [
+            89.94,
+            109.98
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 29.652845330841014,
+            "intercept": 84.0680127565997,
+            "ticks": [
+              {
+                "value": 100.0,
+                "x": 0.5385174417587208,
+                "y": 0.5346153842820514,
+                "right": 0.5581395345355492,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 95.0,
+                "x": 0.3680555555555556,
+                "y": 0.5357843137254903,
+                "right": 0.38166666666666665,
+                "text": "95",
+                "corrected_from": null
+              },
+              {
+                "value": 105.0,
+                "x": 0.7052777777777778,
+                "y": 0.5343137254901961,
+                "right": 0.725,
+                "text": "105",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0036587165031235712
+          },
+          "y": {
+            "slope": -12.499180689855782,
+            "intercept": 6.081060589120296,
+            "ticks": [
+              {
+                "value": 5.0,
+                "x": 0.16642441822051496,
+                "y": 0.08717948684981686,
+                "right": 0.2005813934368507,
+                "text": "5.00",
+                "corrected_from": null
+              },
+              {
+                "value": 0.0,
+                "x": 0.15697674409156975,
+                "y": 0.48589743578846156,
+                "right": 0.18168604720571904,
+                "text": "0.00",
+                "corrected_from": null
+              },
+              {
+                "value": -2.5,
+                "x": 0.15406976738303538,
+                "y": 0.687179487102574,
+                "right": 0.18178987329598567,
+                "text": "-2.50",
+                "corrected_from": null
+              },
+              {
+                "value": 2.5,
+                "x": 0.15833333333333333,
+                "y": 0.2857843137254902,
+                "right": 0.18055555555555555,
+                "text": "2.50",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.0011987751385282408
+          }
+        }
+      },
+      "expected_values": {
+        "strikes": [
+          95,
+          100,
+          105
+        ],
+        "breakevens": [
+          96.25,
+          103.75
+        ],
+        "max_profit": 3.75,
+        "max_loss": 1.25
+      }
+    },
+    {
+      "id": "fidelity-short-straddle",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/short-straddle",
+      "image_sha256": "d78cb7b996b5b056720880954e9c1f9041632a13c76fd32c3b802c451bf3bac0",
+      "expected": "Short straddle",
+      "prediction": {
+        "category": "Short straddle",
+        "confidence": 1.0,
+        "neural_category": "Short straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 7,
+          "fit_error": 7.171545353898621e-06
+        },
+        "explanation": "An inverted V with a central maximum and losses toward both ends of the chart.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 6.480806036963884e-19,
+          "Long put": 6.231939030305108e-18,
+          "Bull spread": 1.150993515585232e-14,
+          "Bear spread": 2.7961820197351455e-16,
+          "Long straddle": 2.205777661218322e-12,
+          "Long strangle": 2.3576596404339956e-12,
+          "Long butterfly": 9.177417669131022e-14,
+          "Short straddle": 1.0
+        }
+      },
+      "correct": true,
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            99.96
+          ],
+          "breakevens": [
+            93.43,
+            106.48
+          ],
+          "max_profit": 6.56,
+          "max_loss": "unbounded",
+          "fit_error": 7.171545353898407e-06,
+          "observed_price_range": [
+            89.98,
+            109.94
+          ]
+        },
+        "message": "Approximate values from visible linear axes and a fitted curve. Strike locations assume the predicted strategy; amounts use the chart's units, with no contract multiplier. Profit/loss limits assume the full expiration curve and a nonnegative underlying price.",
+        "axis_evidence": {
+          "x": {
+            "slope": 29.52626538030684,
+            "intercept": 84.72187430917627,
+            "ticks": [
+              {
+                "value": 95.0,
+                "x": 0.3473837208666425,
+                "y": 0.521794871690705,
+                "right": 0.361918604365788,
+                "text": "95",
+                "corrected_from": null
+              },
+              {
+                "value": 100.0,
+                "x": 0.5188953489583334,
+                "y": 0.5205128202136752,
+                "right": 0.5377906974012587,
+                "text": "100",
+                "corrected_from": null
+              },
+              {
+                "value": 105.0,
+                "x": 0.6860465115552326,
+                "y": 0.5205128204487178,
+                "right": 0.704941859998158,
+                "text": "105",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.004291608712695449
+          },
+          "y": {
+            "slope": -21.084026548400406,
+            "intercept": 9.916786224904929,
+            "ticks": [
+              {
+                "value": 8.0,
+                "x": 0.13735465109011624,
+                "y": 0.09102564096391264,
+                "right": 0.15843023253475058,
+                "text": "8.00",
+                "corrected_from": null
+              },
+              {
+                "value": 6.0,
+                "x": 0.13735465109291145,
+                "y": 0.18461538454635107,
+                "right": 0.15843023253754576,
+                "text": "6.00",
+                "corrected_from": null
+              },
+              {
+                "value": 4.0,
+                "x": 0.13808139527692787,
+                "y": 0.2820512819797986,
+                "right": 0.1600751362064255,
+                "text": "4.00",
+                "corrected_from": null
+              },
+              {
+                "value": 2.0,
+                "x": 0.13735465114825582,
+                "y": 0.37435897399999996,
+                "right": 0.15843023259289016,
+                "text": "2.00",
+                "corrected_from": null
+              },
+              {
+                "value": 0.0,
+                "x": 0.1366279069067614,
+                "y": 0.4705128204415955,
+                "right": 0.15988372135310475,
+                "text": "0.00",
+                "corrected_from": null
+              },
+              {
+                "value": -2.0,
+                "x": 0.13299418598998708,
+                "y": 0.5666666666001899,
+                "right": 0.1598837199865691,
+                "text": "-2.00",
+                "corrected_from": null
+              },
+              {
+                "value": -4.0,
+                "x": 0.13299418581637595,
+                "y": 0.6602564099358975,
+                "right": 0.158430231145152,
+                "text": "-4.00",
+                "corrected_from": null
+              },
+              {
+                "value": -6.0,
+                "x": 0.1322674418057745,
+                "y": 0.7538461537818929,
+                "right": 0.15865870004552057,
+                "text": "-6.00",
+                "corrected_from": null
+              }
+            ],
+            "error": 0.002202058413359837
+          }
+        }
+      },
+      "expected_values": {
+        "strikes": [
+          100
+        ],
+        "breakevens": [
+          93.5,
+          106.5
+        ],
+        "max_profit": 6.5,
+        "max_loss": "unbounded"
+      }
+    }
+  ],
+  "numerical_summary": {
+    "strikes": {
+      "max_absolute_error": 0.14000000000000057,
+      "mean_absolute_error": 0.05181818181818378,
+      "n": 11
+    },
+    "breakevens": {
+      "max_absolute_error": 0.23000000000000398,
+      "mean_absolute_error": 0.09299999999999783,
+      "n": 10
+    },
+    "max_profit": {
+      "max_absolute_error": 0.10999999999999988,
+      "mean_absolute_error": 0.06999999999999984,
+      "n": 4
+    },
+    "max_loss": {
+      "max_absolute_error": 0.1200000000000001,
+      "mean_absolute_error": 0.06399999999999997,
+      "n": 5
+    }
+  }
+}

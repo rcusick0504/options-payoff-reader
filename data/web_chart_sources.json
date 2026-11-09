@@ -1,0 +1,167 @@
+[
+  {
+    "id": "fidelity-bull-call-spread",
+    "publisher": "Fidelity",
+    "split": "development",
+    "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/bull-call-spread",
+    "image_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/bullcallspread600x300.png",
+    "label": 2,
+    "expected": {
+      "strikes": [
+        100,
+        105
+      ],
+      "breakevens": [
+        101.8
+      ],
+      "max_profit": 3.2,
+      "max_loss": 1.8
+    },
+    "notes": "Solid curve at expiration; dashed curve prior to expiration. Values from source example, per share.",
+    "vertical_axis": "profit_loss"
+  },
+  {
+    "id": "fidelity-bear-put-spread",
+    "publisher": "Fidelity",
+    "split": "development",
+    "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/bear-put-spread",
+    "image_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/bearputspread600x330.png",
+    "label": 3,
+    "expected": {
+      "strikes": [
+        95,
+        100
+      ],
+      "breakevens": [
+        98.1
+      ],
+      "max_profit": 3.1,
+      "max_loss": 1.9
+    },
+    "notes": "Solid curve at expiration; dashed curve prior to expiration. Values from source example, per share.",
+    "vertical_axis": "profit_loss"
+  },
+  {
+    "id": "fidelity-long-straddle",
+    "publisher": "Fidelity",
+    "split": "development",
+    "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-straddle",
+    "image_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/longstraddle600x330.png",
+    "label": 4,
+    "expected": {
+      "strikes": [
+        100
+      ],
+      "breakevens": [
+        93.5,
+        106.5
+      ],
+      "max_profit": "unbounded",
+      "max_loss": 6.5
+    },
+    "notes": "Solid curve at expiration; dashed curve prior to expiration. Values from source example, per share.",
+    "vertical_axis": "profit_loss"
+  },
+  {
+    "id": "fidelity-long-strangle",
+    "publisher": "Fidelity",
+    "split": "development",
+    "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-strangle",
+    "image_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/longstrangle600x340.png",
+    "label": 5,
+    "expected": {
+      "strikes": [
+        95,
+        105
+      ],
+      "breakevens": [
+        92.2,
+        107.8
+      ],
+      "max_profit": "unbounded",
+      "max_loss": 2.8
+    },
+    "notes": "Solid curve at expiration; dashed curve prior to expiration. Values from source example, per share.",
+    "vertical_axis": "profit_loss"
+  },
+  {
+    "id": "fidelity-long-butterfly-spread-calls",
+    "publisher": "Fidelity",
+    "split": "development",
+    "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-butterfly-spread-calls",
+    "image_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/LongButterFlyCalls_600x340.png",
+    "label": 6,
+    "expected": {
+      "strikes": [
+        95,
+        100,
+        105
+      ],
+      "breakevens": [
+        96.25,
+        103.75
+      ],
+      "max_profit": 3.75,
+      "max_loss": 1.25
+    },
+    "notes": "Solid curve at expiration; dashed curve prior to expiration. Values from source example, per share.",
+    "vertical_axis": "profit_loss"
+  },
+  {
+    "id": "fidelity-short-straddle",
+    "publisher": "Fidelity",
+    "split": "development",
+    "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/short-straddle",
+    "image_url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/migration/shortstraddle600x340.png",
+    "label": 7,
+    "expected": {
+      "strikes": [
+        100
+      ],
+      "breakevens": [
+        93.5,
+        106.5
+      ],
+      "max_profit": 6.5,
+      "max_loss": "unbounded"
+    },
+    "notes": "Solid curve at expiration; dashed curve prior to expiration. Values from source example, per share.",
+    "vertical_axis": "profit_loss"
+  },
+  {
+    "id": "asx-long-call-0",
+    "publisher": "ASX",
+    "split": "holdout",
+    "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-call",
+    "image_url": "https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-call/_jcr_content/root/responsivegrid/multicolumncontrol_8_1606165236/responsivegrid-0/multicolumncontrol/responsivegrid-0/image.coreimg.gif/1596678882887/long-call-payoff-diagram.gif",
+    "label": 0,
+    "notes": "Public ASX diagram or worked example. Reserved publisher; no tuning on these images."
+  },
+  {
+    "id": "asx-long-call-1",
+    "publisher": "ASX",
+    "split": "holdout",
+    "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-call",
+    "image_url": "https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-call/_jcr_content/root/responsivegrid/multicolumncontrol_c_1616868620/responsivegrid-1/image.coreimg.gif/1596678892717/long-call-example.gif",
+    "label": 0,
+    "notes": "Public ASX diagram or worked example. Reserved publisher; no tuning on these images."
+  },
+  {
+    "id": "asx-long-put-0",
+    "publisher": "ASX",
+    "split": "holdout",
+    "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-put",
+    "image_url": "https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-put/_jcr_content/root/responsivegrid/multicolumncontrol_8_1606165236/responsivegrid-0/multicolumncontrol/responsivegrid-0/image.coreimg.gif/1597122420616/sllongput.gif",
+    "label": 1,
+    "notes": "Public ASX diagram or worked example. Reserved publisher; no tuning on these images."
+  },
+  {
+    "id": "asx-long-put-1",
+    "publisher": "ASX",
+    "split": "holdout",
+    "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-put",
+    "image_url": "https://www.asx.com.au/content/asx/home/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-put/_jcr_content/root/responsivegrid/multicolumncontrol_c_1616868620/responsivegrid-1/image.coreimg.gif/1597122694810/sllongput-eg.gif",
+    "label": 1,
+    "notes": "Public ASX diagram or worked example. Reserved publisher; no tuning on these images."
+  }
+]

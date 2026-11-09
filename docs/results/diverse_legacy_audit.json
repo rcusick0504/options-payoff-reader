@@ -1,0 +1,16 @@
+{
+  "test": {
+    "n": 1600,
+    "neural_accuracy": 1.0
+  },
+  "ood": {
+    "n": 800,
+    "neural_accuracy": 0.98375
+  },
+  "independent": {
+    "n": 80,
+    "neural_accuracy": 1.0,
+    "hybrid_accuracy": 1.0,
+    "purpose": "development audit; missing-plateau regression informed geometry checks"
+  }
+}

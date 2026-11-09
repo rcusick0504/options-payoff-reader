@@ -1,6 +1,8 @@
 """Real selected-model upload smoke checks. Codex-generated."""
 
 from io import BytesIO
+import base64
+import json
 import pytest
 from PIL import Image
 from src.app import create_app, example_image
@@ -43,3 +45,30 @@ def test_upload_and_invalid_inputs(client):
         ).status_code
         == 413
     )
+
+
+def test_numeric_values_are_visible(client, monkeypatch):
+    monkeypatch.setattr("src.app.measure", lambda *args, **kwargs: dict(
+        available=True, message="Approximate values", values=dict(
+            strikes=[100.25], breakevens=[105.5], max_profit="unbounded", max_loss=5.25),
+        axis_evidence=dict(x=dict(ticks=[]), y=None)))
+    response=client.get("/?example=0")
+    assert response.status_code==200
+    for value in [b"100.25",b"105.5",b"unbounded",b"5.25"]:
+        assert value in response.data
+
+
+def test_confirmed_ticks_round_trip_without_saving_upload(client,monkeypatch):
+    received=[]
+    def fake_measure(image,label,**kwargs):
+        received.append(kwargs)
+        return dict(available=False,values=None,message="Reviewed axis settings")
+    monkeypatch.setattr("src.app.measure",fake_measure)
+    image=BytesIO();example_image(0).save(image,"PNG")
+    points=[dict(axis="x",position=[.2,.8],value=80),dict(axis="x",position=[.8,.8],value=120)]
+    response=client.post("/",data=dict(chart_data=base64.b64encode(image.getvalue()).decode(),axis_points=json.dumps(points),vertical_axis="profit_loss"))
+    assert response.status_code==200
+    assert received[0]["axis_points"]==points
+    assert received[0]["vertical_axis"]=="profit_loss"
+    assert b'id="chart-preview"' in response.data
+    assert client.post("/",data=dict(chart_data=base64.b64encode(image.getvalue()).decode(),axis_points='{"invalid":true}')).status_code==400

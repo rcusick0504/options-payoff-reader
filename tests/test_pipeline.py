@@ -3,12 +3,14 @@
 import json
 from pathlib import Path
 import numpy as np
+import pytest
 from PIL import Image
 from src.generate import ROOT, BOX, render, style
 from src.payoffs import sample_trade
 from src.learning import preprocess
 
 
+@pytest.mark.skipif(not (ROOT / "manifest.jsonl").exists(), reason="Original generated dataset is optional; run python -m src.generate to audit its integrity")
 def test_split_integrity():
     rows = [json.loads(s) for s in (ROOT / "manifest.jsonl").read_text().splitlines()]
     assert len({r["id"] for r in rows}) == len(rows)

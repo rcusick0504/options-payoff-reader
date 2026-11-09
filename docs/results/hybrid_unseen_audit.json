@@ -1,0 +1,646 @@
+{
+  "n": 80,
+  "correct": 80,
+  "rows": [
+    {
+      "index": 0,
+      "family": 55,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 1,
+      "family": 55,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 2,
+      "family": 55,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 3,
+      "family": 55,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 4,
+      "family": 55,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 5,
+      "family": 55,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 6,
+      "family": 55,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 7,
+      "family": 55,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 8,
+      "family": 56,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 9,
+      "family": 56,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 10,
+      "family": 56,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 11,
+      "family": 56,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "family": 56,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 13,
+      "family": 56,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 14,
+      "family": 56,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 15,
+      "family": 56,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 16,
+      "family": 57,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 17,
+      "family": 57,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "family": 57,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 19,
+      "family": 57,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 20,
+      "family": 57,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 21,
+      "family": 57,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 22,
+      "family": 57,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "family": 57,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 24,
+      "family": 58,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "family": 58,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "family": 58,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 27,
+      "family": 58,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "family": 58,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 29,
+      "family": 58,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 30,
+      "family": 58,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 31,
+      "family": 58,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 32,
+      "family": 59,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 33,
+      "family": 59,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 34,
+      "family": 59,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 35,
+      "family": 59,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 36,
+      "family": 59,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 37,
+      "family": 59,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 38,
+      "family": 59,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 39,
+      "family": 59,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 40,
+      "family": 55,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 41,
+      "family": 55,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 42,
+      "family": 55,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 43,
+      "family": 55,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 44,
+      "family": 55,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 45,
+      "family": 55,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 46,
+      "family": 55,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 47,
+      "family": 55,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 48,
+      "family": 56,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 49,
+      "family": 56,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 50,
+      "family": 56,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 51,
+      "family": 56,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 52,
+      "family": 56,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 53,
+      "family": 56,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 54,
+      "family": 56,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 55,
+      "family": 56,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 56,
+      "family": 57,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 57,
+      "family": 57,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 58,
+      "family": 57,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 59,
+      "family": 57,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 60,
+      "family": 57,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 61,
+      "family": 57,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 62,
+      "family": 57,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 63,
+      "family": 57,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 64,
+      "family": 58,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 65,
+      "family": 58,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 66,
+      "family": 58,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 67,
+      "family": 58,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 68,
+      "family": 58,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 69,
+      "family": 58,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 70,
+      "family": 58,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 71,
+      "family": 58,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 72,
+      "family": 59,
+      "expected": "Long call",
+      "predicted": "Long call",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 73,
+      "family": 59,
+      "expected": "Long put",
+      "predicted": "Long put",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 74,
+      "family": 59,
+      "expected": "Bull spread",
+      "predicted": "Bull spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 75,
+      "family": 59,
+      "expected": "Bear spread",
+      "predicted": "Bear spread",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 76,
+      "family": 59,
+      "expected": "Long straddle",
+      "predicted": "Long straddle",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 77,
+      "family": 59,
+      "expected": "Long strangle",
+      "predicted": "Long strangle",
+      "source": "neural classifier",
+      "correct": true
+    },
+    {
+      "index": 78,
+      "family": 59,
+      "expected": "Long butterfly",
+      "predicted": "Long butterfly",
+      "source": "curve geometry",
+      "correct": true
+    },
+    {
+      "index": 79,
+      "family": 59,
+      "expected": "Short straddle",
+      "predicted": "Short straddle",
+      "source": "curve geometry",
+      "correct": true
+    }
+  ]
+}

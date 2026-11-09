@@ -1,0 +1,195 @@
+{
+  "split": "development",
+  "model": "cnn_diverse",
+  "checkpoint_sha256": "addab9b0dfc3efc681342c79deb33ac9deb93a5cf6fdd7b05578c4047206ad52",
+  "correct": 6,
+  "total": 6,
+  "rows": [
+    {
+      "id": "fidelity-bull-call-spread",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/bull-call-spread",
+      "image_sha256": "f6d213d00c850cef4de90720faf4005b4512635b81d2416842fc90f8b97e0e1f",
+      "expected": "Bull spread",
+      "prediction": {
+        "category": "Bull spread",
+        "confidence": 0.9993116855621338,
+        "neural_category": "Bull spread",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 2,
+          "fit_error": 2.955879458048532e-06
+        },
+        "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 5.636882020182421e-13,
+          "Long put": 1.5516476992161188e-08,
+          "Bull spread": 0.9993116855621338,
+          "Bear spread": 3.4583044029390733e-14,
+          "Long straddle": 7.373820665179665e-08,
+          "Long strangle": 3.3920122266550834e-09,
+          "Long butterfly": 1.1772998732340056e-05,
+          "Short straddle": 0.0006763650453649461
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "fidelity-bear-put-spread",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/bear-put-spread",
+      "image_sha256": "5308ec869a22f6a6192a66616b8937c35427730b286297bb2c0a3c037dcecf47",
+      "expected": "Bear spread",
+      "prediction": {
+        "category": "Bear spread",
+        "confidence": 0.7424534559249878,
+        "neural_category": "Short straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 3,
+          "fit_error": 6.865298130835451e-06
+        },
+        "explanation": "A decreasing segment between two flat tails; both gain and loss are bounded.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 7.099046115399688e-07,
+          "Long put": 1.5326365954138055e-08,
+          "Bull spread": 2.8826048037444707e-07,
+          "Bear spread": 0.2574574053287506,
+          "Long straddle": 1.1494374803078244e-06,
+          "Long strangle": 7.1585914156457875e-06,
+          "Long butterfly": 7.984824333107099e-05,
+          "Short straddle": 0.7424534559249878
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "fidelity-long-straddle",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-straddle",
+      "image_sha256": "e931b3a0ad13f8f99b793239e2555c475969ab218edd213da2a52ff7925e8f16",
+      "expected": "Long straddle",
+      "prediction": {
+        "category": "Long straddle",
+        "confidence": 1.0,
+        "neural_category": "Long straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 4,
+          "fit_error": 6.91585307967753e-06
+        },
+        "explanation": "A V-shaped profile with its minimum at a common strike.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 4.977064767264228e-13,
+          "Long put": 3.9961478570660347e-10,
+          "Bull spread": 1.2961335563860255e-12,
+          "Bear spread": 8.438852140036257e-16,
+          "Long straddle": 1.0,
+          "Long strangle": 7.444428239003834e-14,
+          "Long butterfly": 1.8959717151302569e-13,
+          "Short straddle": 2.7102046735311136e-12
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "fidelity-long-strangle",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-strangle",
+      "image_sha256": "edaa4ff439fc7382c5f4a96eb5d52bd9a6844df5d2ea517cbad538b6159f1f73",
+      "expected": "Long strangle",
+      "prediction": {
+        "category": "Long strangle",
+        "confidence": 0.8429819941520691,
+        "neural_category": "Long strangle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 5,
+          "fit_error": 5.596795704614925e-06
+        },
+        "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 2.4794553610263392e-06,
+          "Long put": 2.5943995751731563e-07,
+          "Bull spread": 1.6246312952716835e-06,
+          "Bear spread": 8.679710283843178e-09,
+          "Long straddle": 0.15399299561977386,
+          "Long strangle": 0.8429819941520691,
+          "Long butterfly": 6.987305027905677e-07,
+          "Short straddle": 0.003019909607246518
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "fidelity-long-butterfly-spread-calls",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/long-butterfly-spread-calls",
+      "image_sha256": "a268962f1fbb0a1c9e62f162ac317f5f8f7c67b756f30356f98c40299cb024ff",
+      "expected": "Long butterfly",
+      "prediction": {
+        "category": "Long butterfly",
+        "confidence": 0.5128076076507568,
+        "neural_category": "Long butterfly",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 6,
+          "fit_error": 7.522545145410248e-06
+        },
+        "explanation": "A central peak between flat loss tails, constructed with equally spaced calls.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 1.7549482700385255e-10,
+          "Long put": 1.1338564531726547e-09,
+          "Bull spread": 8.32255682325922e-06,
+          "Bear spread": 5.967478511337276e-09,
+          "Long straddle": 1.6878574982115424e-08,
+          "Long strangle": 1.7852909877547063e-05,
+          "Long butterfly": 0.5128076076507568,
+          "Short straddle": 0.48716628551483154
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "fidelity-short-straddle",
+      "publisher": "Fidelity",
+      "source_url": "https://www.fidelity.com/learning-center/investment-products/options/options-strategy-guide/short-straddle",
+      "image_sha256": "d78cb7b996b5b056720880954e9c1f9041632a13c76fd32c3b802c451bf3bac0",
+      "expected": "Short straddle",
+      "prediction": {
+        "category": "Short straddle",
+        "confidence": 1.0,
+        "neural_category": "Short straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 7,
+          "fit_error": 7.171545353898621e-06
+        },
+        "explanation": "An inverted V with a central maximum and losses toward both ends of the chart.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 6.480806036963884e-19,
+          "Long put": 6.231939030305108e-18,
+          "Bull spread": 1.150993515585232e-14,
+          "Bear spread": 2.7961820197351455e-16,
+          "Long straddle": 2.205777661218322e-12,
+          "Long strangle": 2.3576596404339956e-12,
+          "Long butterfly": 9.177417669131022e-14,
+          "Short straddle": 1.0
+        }
+      },
+      "correct": true
+    }
+  ]
+}

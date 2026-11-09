@@ -18,7 +18,7 @@ def records(split):
     ]
 
 
-def preprocess(image, crop=False, gray=False, size=64):
+def preprocess(image, crop=False, gray=False, size=64, normalize_background=False):
     """Fixed known chart-box crop, NOT automatic plot detection on arbitrary images."""
     im = image.convert("RGB")
     if crop:
@@ -32,6 +32,10 @@ def preprocess(image, crop=False, gray=False, size=64):
         )
     if gray:
         im = im.convert("L").convert("RGB")
+    if normalize_background:
+        a = np.asarray(im)
+        if np.median(a) < 128:
+            im = Image.fromarray(255 - a)
     return (
         torch.from_numpy(
             np.asarray(im.resize((size, size), Image.Resampling.BILINEAR)).copy()
@@ -72,6 +76,21 @@ class SmallCNN(nn.Module):
             nn.Dropout(dropout),
             nn.Linear(64, 8),
         )
+
+    def forward(self, x):
+        return self.head(self.features(x))
+
+
+class RobustCNN(nn.Module):
+    """Higher-resolution shape reader, preserving spatial position of the wings."""
+    def __init__(self):
+        super().__init__()
+        layers = []
+        channels = [3, 16, 32, 64]
+        for a, b in zip(channels, channels[1:]):
+            layers.extend([nn.Conv2d(a, b, 3, padding=1), nn.BatchNorm2d(b), nn.ReLU(), nn.MaxPool2d(2)])
+        self.features = nn.Sequential(*layers, nn.AdaptiveAvgPool2d((6, 6)))
+        self.head = nn.Sequential(nn.Flatten(), nn.Linear(64 * 36, 128), nn.ReLU(), nn.Dropout(.3), nn.Linear(128, 8))
 
     def forward(self, x):
         return self.head(self.features(x))

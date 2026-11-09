@@ -1,0 +1,12 @@
+# Optional portable OCR. Install with: pip install -c requirements.txt -r requirements-ocr.txt
+# Models are bundled with rapidocr-onnxruntime; inference stays offline.
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.31.1
+opencv-python==5.0.0.93
+pyclipper==1.4.0
+Shapely==2.2.0
+PyYAML==6.0.3
+six==1.17.0
+tqdm==4.70.1
+protobuf==7.36.2
+flatbuffers==25.12.19

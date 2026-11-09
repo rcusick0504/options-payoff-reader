@@ -5,7 +5,10 @@ __pycache__/
 .env*
 !.env.example
 data/generated/
+data/diverse-v1/
+data/web_charts/
 models/*.pt
+!models/cnn_diverse.pt
 models/*.joblib
 models/cache/
 docs/*_source.txt

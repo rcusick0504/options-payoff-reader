@@ -1,0 +1,133 @@
+{
+  "split": "holdout",
+  "model": "cnn_diverse",
+  "checkpoint_sha256": "addab9b0dfc3efc681342c79deb33ac9deb93a5cf6fdd7b05578c4047206ad52",
+  "correct": 4,
+  "total": 4,
+  "rows": [
+    {
+      "id": "asx-long-call-0",
+      "publisher": "ASX",
+      "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-call",
+      "image_sha256": "9926f8a09e93dde8b7df97e480beca4a72e16379d14d35faf7e9a141787c1f0b",
+      "expected": "Long call",
+      "prediction": {
+        "category": "Long call",
+        "confidence": 0.9999979734420776,
+        "neural_category": "Long call",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 0,
+          "fit_error": 4.288487482921044e-06
+        },
+        "explanation": "Flat loss below the strike, then increasing profit as expiration price rises.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 0.9999979734420776,
+          "Long put": 6.522674788527263e-14,
+          "Bull spread": 6.067357727346234e-11,
+          "Bear spread": 6.296059507082674e-11,
+          "Long straddle": 3.4020064276774065e-07,
+          "Long strangle": 8.864031175725984e-10,
+          "Long butterfly": 1.6494143437739694e-06,
+          "Short straddle": 7.948973510668589e-13
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "asx-long-call-1",
+      "publisher": "ASX",
+      "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-call",
+      "image_sha256": "5f98d75f742b27a7fd482223cd5b8d59bc665d2e23cba035d4803d379f01d18d",
+      "expected": "Long call",
+      "prediction": {
+        "category": "Long call",
+        "confidence": 0.9983186721801758,
+        "neural_category": "Long strangle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 0,
+          "fit_error": 4.157966348979384e-06
+        },
+        "explanation": "Flat loss below the strike, then increasing profit as expiration price rises.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 0.0015625647502020001,
+          "Long put": 6.487051970897537e-14,
+          "Bull spread": 5.719402174086952e-10,
+          "Bear spread": 1.869691068634438e-09,
+          "Long straddle": 0.00011871006427099928,
+          "Long strangle": 0.9983186721801758,
+          "Long butterfly": 2.125024778365514e-08,
+          "Short straddle": 7.677800795136136e-08
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "asx-long-put-0",
+      "publisher": "ASX",
+      "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-put",
+      "image_sha256": "276d154bf7565ccb495459d8c4c4b1e07987141cad6b21c6ad5d71ea9293f7a0",
+      "expected": "Long put",
+      "prediction": {
+        "category": "Long put",
+        "confidence": 0.9996490478515625,
+        "neural_category": "Long put",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 1,
+          "fit_error": 2.9460971860599083e-06
+        },
+        "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 1.98231649194483e-13,
+          "Long put": 0.9996490478515625,
+          "Bull spread": 3.2431444196845405e-09,
+          "Bear spread": 8.856426703118814e-10,
+          "Long straddle": 0.0003416638064663857,
+          "Long strangle": 6.749036401743069e-06,
+          "Long butterfly": 2.5346471375087276e-06,
+          "Short straddle": 2.0232195918623574e-09
+        }
+      },
+      "correct": true
+    },
+    {
+      "id": "asx-long-put-1",
+      "publisher": "ASX",
+      "source_url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/asx-options-knowledge-hub/investment-strategies/long-put",
+      "image_sha256": "5a00777f0f483707dcee76dd22ad0a54df4020e84c75166c82a1e5eccc5da992",
+      "expected": "Long put",
+      "prediction": {
+        "category": "Long put",
+        "confidence": 0.9725567102432251,
+        "neural_category": "Long straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 1,
+          "fit_error": 6.389269880065573e-06
+        },
+        "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 1.23395285417556e-13,
+          "Long put": 0.0022303257137537003,
+          "Bull spread": 4.915399198779369e-10,
+          "Bear spread": 1.1141039202300362e-08,
+          "Long straddle": 0.9725567102432251,
+          "Long strangle": 0.02513272874057293,
+          "Long butterfly": 1.624664946575649e-05,
+          "Short straddle": 6.394851516233757e-05
+        }
+      },
+      "correct": true
+    }
+  ]
+}

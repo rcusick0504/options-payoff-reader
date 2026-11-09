@@ -1,0 +1,371 @@
+{
+  "config": {
+    "name": "cnn_diverse",
+    "architecture": "robust",
+    "crop": false,
+    "gray": true,
+    "size": 96,
+    "normalize_background": true,
+    "dropout": 0.3
+  },
+  "seed": 731,
+  "selected_epoch": 20,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.21836377430707216,
+      "val_accuracy": 0.996874988079071,
+      "unseen_val_accuracy": 0.9962499737739563,
+      "selection_loss": 0.015829808078706264
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.008323847320862115,
+      "val_accuracy": 0.9987499713897705,
+      "unseen_val_accuracy": 0.9987499713897705,
+      "selection_loss": 0.009400367736816406
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.003712509224191308,
+      "val_accuracy": 0.9987499713897705,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 0.004707076353952289
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0021384630014654247,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 0.9987499713897705,
+      "selection_loss": 0.002738534822128713
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0007893567510182037,
+      "val_accuracy": 0.9993749856948853,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 0.0020140985143370926
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0007719927500584163,
+      "val_accuracy": 0.721875011920929,
+      "unseen_val_accuracy": 0.7574999928474426,
+      "selection_loss": 1.5423259735107422
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.000689252273645252,
+      "val_accuracy": 0.8706250190734863,
+      "unseen_val_accuracy": 0.893750011920929,
+      "selection_loss": 0.49359558522701263
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0003400534430402331,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 6.554162973770872e-05
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.000319860172807239,
+      "val_accuracy": 0.9950000047683716,
+      "unseen_val_accuracy": 0.9987499713897705,
+      "selection_loss": 0.007301103905774653
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.00022886461461894215,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 0.00021166586157050915
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.0002121801306057023,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 6.082240361138247e-05
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.00014354402050958015,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 5.588633212028071e-05
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.00012927080885856413,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 8.53858728078194e-05
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.00015037187741836534,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 9.42273654800374e-05
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.0001883038932137424,
+      "val_accuracy": 0.9200000166893005,
+      "unseen_val_accuracy": 0.9350000023841858,
+      "selection_loss": 0.28505127131938934
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.00014415982736682055,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 2.6038002943096217e-05
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.00012057024753448787,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 2.8889207897009328e-05
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.000131115138734458,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 1.9029808299819706e-05
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.00011036166335907182,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 1.780142224561132e-05
+    },
+    {
+      "epoch": 20,
+      "train_loss": 9.169317742635031e-05,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 1.0338468882764573e-05
+    },
+    {
+      "epoch": 21,
+      "train_loss": 8.775245619835914e-05,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 1.058752354765602e-05
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.00011304493128773174,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 6.00785824644845e-05
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.00012078486283644452,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 1.7894304619403556e-05
+    },
+    {
+      "epoch": 24,
+      "train_loss": 8.882210959382064e-05,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 1.1809970601461828e-05
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.0001614225912544498,
+      "val_accuracy": 1.0,
+      "unseen_val_accuracy": 1.0,
+      "selection_loss": 1.1991054179816274e-05
+    }
+  ],
+  "train_count": 16000,
+  "seconds": 845.2209392500008,
+  "device": "cpu",
+  "val": {
+    "accuracy": 1.0,
+    "loss": 1.3048318578512408e-05,
+    "n": 1600,
+    "per_family": {
+      "textbook-layout-1": 1.0,
+      "terminal-layout-1": 1.0,
+      "spreadsheet-layout-1": 1.0,
+      "cream-paper-layout-1": 1.0,
+      "blueprint-layout-1": 1.0,
+      "graph-paper-layout-1": 1.0,
+      "pen-layout-1": 1.0,
+      "pencil-layout-1": 1.0,
+      "chalkboard-layout-1": 1.0,
+      "presentation-layout-1": 1.0,
+      "textbook-layout-2": 1.0,
+      "terminal-layout-2": 1.0,
+      "spreadsheet-layout-2": 1.0,
+      "cream-paper-layout-2": 1.0,
+      "blueprint-layout-2": 1.0,
+      "graph-paper-layout-2": 1.0,
+      "pen-layout-2": 1.0,
+      "pencil-layout-2": 1.0,
+      "chalkboard-layout-2": 1.0,
+      "presentation-layout-2": 1.0,
+      "textbook-layout-3": 1.0,
+      "terminal-layout-3": 1.0,
+      "spreadsheet-layout-3": 1.0,
+      "cream-paper-layout-3": 1.0,
+      "blueprint-layout-3": 1.0,
+      "graph-paper-layout-3": 1.0,
+      "pen-layout-3": 1.0,
+      "pencil-layout-3": 1.0,
+      "chalkboard-layout-3": 1.0,
+      "presentation-layout-3": 1.0,
+      "textbook-layout-4": 1.0,
+      "terminal-layout-4": 1.0,
+      "spreadsheet-layout-4": 1.0,
+      "cream-paper-layout-4": 1.0,
+      "blueprint-layout-4": 1.0,
+      "graph-paper-layout-4": 1.0,
+      "pen-layout-4": 1.0,
+      "pencil-layout-4": 1.0,
+      "chalkboard-layout-4": 1.0,
+      "presentation-layout-4": 1.0,
+      "textbook-layout-5": 1.0,
+      "terminal-layout-5": 1.0,
+      "spreadsheet-layout-5": 1.0,
+      "cream-paper-layout-5": 1.0,
+      "blueprint-layout-5": 1.0,
+      "graph-paper-layout-5": 1.0,
+      "pen-layout-5": 1.0,
+      "pencil-layout-5": 1.0,
+      "chalkboard-layout-5": 1.0,
+      "presentation-layout-5": 1.0
+    },
+    "per_class": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0
+    }
+  },
+  "unseen_val": {
+    "accuracy": 1.0,
+    "loss": 7.628619187016739e-06,
+    "n": 800,
+    "per_family": {
+      "textbook-layout-6": 1.0,
+      "terminal-layout-6": 1.0,
+      "spreadsheet-layout-6": 1.0,
+      "cream-paper-layout-6": 1.0,
+      "blueprint-layout-6": 1.0
+    },
+    "per_class": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0
+    }
+  },
+  "test": {
+    "accuracy": 1.0,
+    "loss": 4.839328903472051e-05,
+    "n": 1600,
+    "per_family": {
+      "textbook-layout-1": 1.0,
+      "terminal-layout-1": 1.0,
+      "spreadsheet-layout-1": 1.0,
+      "cream-paper-layout-1": 1.0,
+      "blueprint-layout-1": 1.0,
+      "graph-paper-layout-1": 1.0,
+      "pen-layout-1": 1.0,
+      "pencil-layout-1": 1.0,
+      "chalkboard-layout-1": 1.0,
+      "presentation-layout-1": 1.0,
+      "textbook-layout-2": 1.0,
+      "terminal-layout-2": 1.0,
+      "spreadsheet-layout-2": 1.0,
+      "cream-paper-layout-2": 1.0,
+      "blueprint-layout-2": 1.0,
+      "graph-paper-layout-2": 1.0,
+      "pen-layout-2": 1.0,
+      "pencil-layout-2": 1.0,
+      "chalkboard-layout-2": 1.0,
+      "presentation-layout-2": 1.0,
+      "textbook-layout-3": 1.0,
+      "terminal-layout-3": 1.0,
+      "spreadsheet-layout-3": 1.0,
+      "cream-paper-layout-3": 1.0,
+      "blueprint-layout-3": 1.0,
+      "graph-paper-layout-3": 1.0,
+      "pen-layout-3": 1.0,
+      "pencil-layout-3": 1.0,
+      "chalkboard-layout-3": 1.0,
+      "presentation-layout-3": 1.0,
+      "textbook-layout-4": 1.0,
+      "terminal-layout-4": 1.0,
+      "spreadsheet-layout-4": 1.0,
+      "cream-paper-layout-4": 1.0,
+      "blueprint-layout-4": 1.0,
+      "graph-paper-layout-4": 1.0,
+      "pen-layout-4": 1.0,
+      "pencil-layout-4": 1.0,
+      "chalkboard-layout-4": 1.0,
+      "presentation-layout-4": 1.0,
+      "textbook-layout-5": 1.0,
+      "terminal-layout-5": 1.0,
+      "spreadsheet-layout-5": 1.0,
+      "cream-paper-layout-5": 1.0,
+      "blueprint-layout-5": 1.0,
+      "graph-paper-layout-5": 1.0,
+      "pen-layout-5": 1.0,
+      "pencil-layout-5": 1.0,
+      "chalkboard-layout-5": 1.0,
+      "presentation-layout-5": 1.0
+    },
+    "per_class": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0
+    }
+  },
+  "unseen_test": {
+    "accuracy": 1.0,
+    "loss": 8.451178473478649e-06,
+    "n": 800,
+    "per_family": {
+      "graph-paper-layout-6": 1.0,
+      "pen-layout-6": 1.0,
+      "pencil-layout-6": 1.0,
+      "chalkboard-layout-6": 1.0,
+      "presentation-layout-6": 1.0
+    },
+    "per_class": {
+      "0": 1.0,
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0,
+      "6": 1.0,
+      "7": 1.0
+    }
+  }
+}

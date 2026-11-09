@@ -1,0 +1,718 @@
+{
+  "purpose": "development audit, not an untouched benchmark",
+  "correct": 8,
+  "total": 8,
+  "rows": [
+    {
+      "label": 0,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/long-call",
+      "image_url": "https://www.optionseducation.org/getContentAsset/49481bc6-9263-4cdb-bc3b-09e7422a7659/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Long-Call-PnL?language=en-US",
+      "path": "tmp/oic-long-call.png",
+      "alt": "Long Call P&L chart; Long 60 call (red dot); Max loss below 60, profit increases as price increases",
+      "geometry": {
+        "label": 0,
+        "fit_error": 1.6128976576463375e-05
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            60.16
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 1.612897657646312e-05,
+          "observed_price_range": [
+            49.5,
+            70.1
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.117020623402855,
+            "intercept": 44.39626146297209,
+            "ticks": [
+              {
+                "value": 50.0,
+                "x": 0.1802325580637007,
+                "y": 0.5784883720361476,
+                "right": 0.20058139517443205
+              },
+              {
+                "value": 55.0,
+                "x": 0.3401162789898256,
+                "y": 0.579215116210029,
+                "right": 0.35901162743275095
+              },
+              {
+                "value": 60.0,
+                "x": 0.5021802324818314,
+                "y": 0.5813953487718023,
+                "right": 0.5218023252586598
+              },
+              {
+                "value": 65.0,
+                "x": 0.6620639534197351,
+                "y": 0.5813953487645348,
+                "right": 0.6802325575287574
+              },
+              {
+                "value": 70.0,
+                "x": 0.8226744185319765,
+                "y": 0.5813953487718023,
+                "right": 0.8415697669749019
+              }
+            ],
+            "error": 0.0011307056887240208
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Long call",
+        "confidence": 0.9480785131454468,
+        "neural_category": "Long straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 0,
+          "fit_error": 1.6128976576463375e-05
+        },
+        "explanation": "Flat loss below the strike, then increasing profit as expiration price rises.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 0.009510369971394539,
+          "Long put": 2.1761963758804015e-11,
+          "Bull spread": 7.229226866911631e-06,
+          "Bear spread": 9.118458024204301e-07,
+          "Long straddle": 0.9480785131454468,
+          "Long strangle": 0.041475776582956314,
+          "Long butterfly": 2.092219233418291e-07,
+          "Short straddle": 0.000926931737922132
+        }
+      },
+      "correct": true
+    },
+    {
+      "label": 1,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/long-put",
+      "image_url": "https://www.optionseducation.org/getContentAsset/ba72011a-a1ba-4249-9eb7-b49be01cdcc5/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Long-Put-PnL?language=en-US",
+      "path": "tmp/oic-long-put.png",
+      "alt": "Long Put P&L chart; Long 60 put (red dot); Max loss above 60, profit increases as prices decrease.",
+      "geometry": {
+        "label": 1,
+        "fit_error": 1.648668868105492e-05
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            60.18
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 1.6486688681055025e-05,
+          "observed_price_range": [
+            49.9,
+            70.84
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.0747491955148,
+            "intercept": 44.42649197524899,
+            "ticks": [
+              {
+                "value": 50.0,
+                "x": 0.1795058138771802,
+                "y": 0.5792151162172965,
+                "right": 0.19912790665400854
+              },
+              {
+                "value": 55.0,
+                "x": 0.33938953480700906,
+                "y": 0.5799418603924418,
+                "right": 0.3575581389160314
+              },
+              {
+                "value": 60.0,
+                "x": 0.5021802324818314,
+                "y": 0.5813953487718023,
+                "right": 0.5218023252586598
+              },
+              {
+                "value": 65.0,
+                "x": 0.6620639534197351,
+                "y": 0.5813953487645348,
+                "right": 0.6802325575287574
+              },
+              {
+                "value": 70.0,
+                "x": 0.8226744185319765,
+                "y": 0.5813953487718023,
+                "right": 0.8415697669749019
+              }
+            ],
+            "error": 0.0015808375283612008
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Long put",
+        "confidence": 0.7382033467292786,
+        "neural_category": "Long strangle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 1,
+          "fit_error": 1.648668868105492e-05
+        },
+        "explanation": "Profit rises as expiration price falls below the strike; loss is flat above it.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 6.551241327201751e-09,
+          "Long put": 0.0020446176640689373,
+          "Bull spread": 7.405664746329421e-06,
+          "Bear spread": 0.0008841272792778909,
+          "Long straddle": 0.22194644808769226,
+          "Long strangle": 0.7382033467292786,
+          "Long butterfly": 1.2034436622343492e-05,
+          "Short straddle": 0.03690192103385925
+        }
+      },
+      "correct": true
+    },
+    {
+      "label": 2,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/bull-call-spread-debit-call-spread",
+      "image_url": "https://www.optionseducation.org/getContentAsset/49d0b13f-dc64-4072-a669-53722731301b/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Bull-Call-Spread-PnL?language=en-US",
+      "path": "tmp/oic-bull-call-spread-debit-call-spread.png",
+      "alt": "Bull Call Spread P&L chart; Long 60 call (red dot), Short 65 call (green dot); Max profit above 65, Max loss below 60",
+      "geometry": {
+        "label": 2,
+        "fit_error": 2.467571165171674e-06
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            60.18,
+            64.65
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 2.4675711651714884e-06,
+          "observed_price_range": [
+            50.07,
+            70.82
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.060758146905663,
+            "intercept": 43.54413397577448,
+            "ticks": [
+              {
+                "value": 55.0,
+                "x": 0.3684593021196705,
+                "y": 0.5813953486191861,
+                "right": 0.38662790622869286
+              },
+              {
+                "value": 60.0,
+                "x": 0.5305232557412791,
+                "y": 0.5828488371438953,
+                "right": 0.5508720928520104
+              },
+              {
+                "value": 65.0,
+                "x": 0.6904069766715115,
+                "y": 0.5828488371438953,
+                "right": 0.7093023251144369
+              },
+              {
+                "value": 70.0,
+                "x": 0.8517441859738373,
+                "y": 0.5828488371438953,
+                "right": 0.8706395344167626
+              }
+            ],
+            "error": 0.001505900910888632
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Bull spread",
+        "confidence": 0.49711284041404724,
+        "neural_category": "Long call",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 2,
+          "fit_error": 2.467571165171674e-06
+        },
+        "explanation": "An increasing segment between two flat tails; both gain and loss are bounded.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 0.49711284041404724,
+          "Long put": 1.4871519293802038e-10,
+          "Bull spread": 0.0018228243570774794,
+          "Bear spread": 2.3196953407023102e-05,
+          "Long straddle": 0.21254125237464905,
+          "Long strangle": 0.28439033031463623,
+          "Long butterfly": 2.9789325708406977e-06,
+          "Short straddle": 0.004106542561203241
+        }
+      },
+      "correct": true
+    },
+    {
+      "label": 3,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/bear-put-spread",
+      "image_url": "https://www.optionseducation.org/getContentAsset/005dfc0c-3939-431c-b143-1672ca06f462/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Bear-Put-Spread-PnL_final_approved?language=en-US",
+      "path": "tmp/oic-bear-put-spread.png",
+      "alt": "Bear Put Spread P&L chart; Long 60 put (red dot), Short 55 put (green dot); Max profit below 55, Max loss above 60",
+      "geometry": {
+        "label": 3,
+        "fit_error": 3.0401527770327995e-06
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            55.22,
+            60.03
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 3.040152777032845e-06,
+          "observed_price_range": [
+            48.85,
+            70.08
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.0468555395923,
+            "intercept": 44.56231209436966,
+            "ticks": [
+              {
+                "value": 50.0,
+                "x": 0.17514534876090115,
+                "y": 0.5872093022601743,
+                "right": 0.19476744100791044
+              },
+              {
+                "value": 55.0,
+                "x": 0.335755813880814,
+                "y": 0.5872093022601743,
+                "right": 0.3546511633833775
+              },
+              {
+                "value": 60.0,
+                "x": 0.4978197674937709,
+                "y": 0.5886627905107973,
+                "right": 0.5174418597407802
+              },
+              {
+                "value": 65.0,
+                "x": 0.6584302324889258,
+                "y": 0.5893895348248892,
+                "right": 0.6773255819914893
+              },
+              {
+                "value": 70.0,
+                "x": 0.8190406976017441,
+                "y": 0.5893895348248892,
+                "right": 0.8372093027704046
+              }
+            ],
+            "error": 0.0009025250251095684
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Bear spread",
+        "confidence": 0.9198142886161804,
+        "neural_category": "Long strangle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 3,
+          "fit_error": 3.0401527770327995e-06
+        },
+        "explanation": "A decreasing segment between two flat tails; both gain and loss are bounded.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 6.615054615188853e-10,
+          "Long put": 0.001267185783945024,
+          "Bull spread": 1.8185219232691452e-05,
+          "Bear spread": 0.00011746048403438181,
+          "Long straddle": 0.003333593253046274,
+          "Long strangle": 0.9198142886161804,
+          "Long butterfly": 3.3283404263784178e-06,
+          "Short straddle": 0.07544595003128052
+        }
+      },
+      "correct": true
+    },
+    {
+      "label": 4,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/long-straddle",
+      "image_url": "https://www.optionseducation.org/getContentAsset/2173edc5-bb6e-48dc-a36e-9f89450b3291/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Long-Straddle_final_approved?language=en-US",
+      "path": "tmp/oic-long-straddle.png",
+      "alt": "Long Straddle P&L chart; Long call & put at 60 (red dot); Max loss at 60, profit increases as price moves away from 60 in either direction",
+      "geometry": {
+        "label": 4,
+        "fit_error": 2.5395795989488335e-05
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            60.09
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 2.53957959894884e-05,
+          "observed_price_range": [
+            47.78,
+            72.28
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.004869037111337,
+            "intercept": 43.814834558490276,
+            "ticks": [
+              {
+                "value": 55.0,
+                "x": 0.3604651162063953,
+                "y": 0.5792151162172965,
+                "right": 0.3793604646493207
+              },
+              {
+                "value": 60.0,
+                "x": 0.5225290698522287,
+                "y": 0.5806686044210272,
+                "right": 0.542151162629057
+              },
+              {
+                "value": 65.0,
+                "x": 0.6831395348110465,
+                "y": 0.5806686045950054,
+                "right": 0.7020348832539719
+              },
+              {
+                "value": 70.0,
+                "x": 0.8444767441052972,
+                "y": 0.5799418603924418,
+                "right": 0.8633720925482226
+              }
+            ],
+            "error": 0.0010519958228153807
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Long straddle",
+        "confidence": 0.8121234774589539,
+        "neural_category": "Long straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 4,
+          "fit_error": 2.5395795989488335e-05
+        },
+        "explanation": "A V-shaped profile with its minimum at a common strike.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 7.928267820034307e-08,
+          "Long put": 3.0689294855390514e-11,
+          "Bull spread": 3.337630971600447e-08,
+          "Bear spread": 1.6870206343000405e-09,
+          "Long straddle": 0.8121234774589539,
+          "Long strangle": 0.18787531554698944,
+          "Long butterfly": 8.766795622783263e-11,
+          "Short straddle": 1.0531438192629139e-06
+        }
+      },
+      "correct": true
+    },
+    {
+      "label": 5,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/long-strangle-long-combination",
+      "image_url": "https://www.optionseducation.org/getContentAsset/be3c1675-ea16-4ed8-b5a4-a392d9157d12/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Long-Strangle-PnL?language=en-US",
+      "path": "tmp/oic-long-strangle-long-combination.png",
+      "alt": "Long Strangle P&L chart; Max loss between 55-65 (red dots); Profit increases below 50 and above 70",
+      "geometry": {
+        "label": 5,
+        "fit_error": 4.0015326422569925e-05
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            54.99,
+            65.25
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 4.001532642256954e-05,
+          "observed_price_range": [
+            48.21,
+            71.91
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.101828273732096,
+            "intercept": 43.47951417927551,
+            "ticks": [
+              {
+                "value": 55.0,
+                "x": 0.3699127906286338,
+                "y": 0.5843023255014534,
+                "right": 0.3895348834054621
+              },
+              {
+                "value": 60.0,
+                "x": 0.5327034882961152,
+                "y": 0.5850290696980709,
+                "right": 0.5537790697407495
+              },
+              {
+                "value": 65.0,
+                "x": 0.6904069766749725,
+                "y": 0.5857558138911961,
+                "right": 0.7093023251178978
+              },
+              {
+                "value": 70.0,
+                "x": 0.8531976743497552,
+                "y": 0.5813953487683599,
+                "right": 0.8720930227926806
+              }
+            ],
+            "error": 0.0031711062128617113
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Long strangle",
+        "confidence": 1.0,
+        "neural_category": "Long strangle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 5,
+          "fit_error": 4.0015326422569925e-05
+        },
+        "explanation": "Two rising outer wings with a flat loss region between two strikes.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 1.3612047686933915e-12,
+          "Long put": 7.196063271089001e-14,
+          "Bull spread": 6.498129400019093e-13,
+          "Bear spread": 1.975919211236188e-12,
+          "Long straddle": 1.2562523243886403e-10,
+          "Long strangle": 1.0,
+          "Long butterfly": 1.3491692572170644e-13,
+          "Short straddle": 2.138854204858376e-09
+        }
+      },
+      "correct": true
+    },
+    {
+      "label": 6,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/long-call-butterfly",
+      "image_url": "https://www.optionseducation.org/getContentAsset/eefc8a1e-b7e1-4c59-bdd2-684ae72df721/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Long-Call-Butterfly-PnL?language=en-US",
+      "path": "tmp/oic-long-call-butterfly.png",
+      "alt": "Long Call Butterfly P&L chart; Long 55 & 65 calls (red dots), Short 2x 60 calls (green dot); Max profit at 60, Max loss below 55 or above 65",
+      "geometry": {
+        "label": 6,
+        "fit_error": 3.41558045889778e-05
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            55.17,
+            60.2,
+            65.23
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 3.4155804588977645e-05,
+          "observed_price_range": [
+            49.27,
+            71.29
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.004869031170095,
+            "intercept": 43.56697587078622,
+            "ticks": [
+              {
+                "value": 55.0,
+                "x": 0.36845930225290696,
+                "y": 0.5893895348248892,
+                "right": 0.38662790636192934
+              },
+              {
+                "value": 60.0,
+                "x": 0.5305232557447397,
+                "y": 0.590116279007475,
+                "right": 0.550872092855471
+              },
+              {
+                "value": 65.0,
+                "x": 0.6911337209907946,
+                "y": 0.5908430230256783,
+                "right": 0.7093023250998169
+              },
+              {
+                "value": 70.0,
+                "x": 0.8524709301598837,
+                "y": 0.590116279000918,
+                "right": 0.8706395342689061
+              }
+            ],
+            "error": 0.0010519955427890674
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Long butterfly",
+        "confidence": 0.9827280640602112,
+        "neural_category": "Long butterfly",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 6,
+          "fit_error": 3.41558045889778e-05
+        },
+        "explanation": "A central peak between flat loss tails, constructed with equally spaced calls.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 1.870348910415487e-06,
+          "Long put": 2.1949265516241212e-08,
+          "Bull spread": 0.00010936222679447383,
+          "Bear spread": 0.0003406941541470587,
+          "Long straddle": 0.0002520980779081583,
+          "Long strangle": 0.00013968205894343555,
+          "Long butterfly": 0.9827280640602112,
+          "Short straddle": 0.016428165137767792
+        }
+      },
+      "correct": true
+    },
+    {
+      "label": 7,
+      "source": "https://www.optionseducation.org/strategies/all-strategies/short-straddle",
+      "image_url": "https://www.optionseducation.org/getContentAsset/d2deb6b2-cd36-4187-97d8-440237cda1dd/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Short-Straddle_PnL?language=en-US",
+      "path": "tmp/oic-short-straddle.png",
+      "alt": "Short Straddle P&L chart; Short call & put at 60 (green dot); Max profit at 60, Unlimited loss both directions",
+      "geometry": {
+        "label": 7,
+        "fit_error": 3.7299900523263235e-05
+      },
+      "measurements": {
+        "available": true,
+        "values": {
+          "strikes": [
+            59.97
+          ],
+          "breakevens": [],
+          "max_profit": null,
+          "max_loss": null,
+          "fit_error": 3.729990052326317e-05,
+          "observed_price_range": [
+            47.9,
+            71.9
+          ]
+        },
+        "axis_evidence": {
+          "x": {
+            "slope": 31.01858288006303,
+            "intercept": 43.80093423173318,
+            "ticks": [
+              {
+                "value": 55.0,
+                "x": 0.3604651160852714,
+                "y": 0.5784883719476744,
+                "right": 0.3793604645281967
+              },
+              {
+                "value": 60.0,
+                "x": 0.5232558139898256,
+                "y": 0.5799418603015988,
+                "right": 0.5436046511005569
+              },
+              {
+                "value": 65.0,
+                "x": 0.6831395349460132,
+                "y": 0.5799418602782392,
+                "right": 0.7020348833889386
+              },
+              {
+                "value": 70.0,
+                "x": 0.8444767441052972,
+                "y": 0.5799418603924418,
+                "right": 0.8633720925482226
+              }
+            ],
+            "error": 0.002105871030095348
+          },
+          "y": null
+        },
+        "message": "Estimated strike locations from the price axis and curve kinks, assuming the suggested strategy. The vertical scale was not readable; breakeven and profit/loss values are withheld."
+      },
+      "prediction": {
+        "category": "Short straddle",
+        "confidence": 0.9999991655349731,
+        "neural_category": "Short straddle",
+        "source": "curve geometry",
+        "uncertain": false,
+        "geometry": {
+          "label": 7,
+          "fit_error": 3.7299900523263235e-05
+        },
+        "explanation": "An inverted V with a central maximum and losses toward both ends of the chart.",
+        "model": "cnn_diverse",
+        "probabilities": {
+          "Long call": 1.0376008591824609e-13,
+          "Long put": 2.3361910686135398e-14,
+          "Bull spread": 7.134721702328761e-10,
+          "Bear spread": 3.719766508702982e-11,
+          "Long straddle": 2.210369665078815e-09,
+          "Long strangle": 8.000845923561428e-07,
+          "Long butterfly": 1.439053098906129e-09,
+          "Short straddle": 0.9999991655349731
+        }
+      },
+      "correct": true
+    }
+  ]
+}
